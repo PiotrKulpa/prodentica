@@ -36,7 +36,7 @@
 
         <router-link to="/galeria"><div class="nav-link">Galeria</div></router-link>
 
-        <router-link to="/galeria"><div class="nav-link">Nasz zespół</div></router-link>
+        <router-link to="/galeria"><div class="nav-link radial-gradient">Nasz zespół</div></router-link>
         <router-link to="/kontakt"><div class="nav-link radial-gradient">Kontakt</div></router-link>
       </div>
 
@@ -44,12 +44,14 @@
 
 
     </nav>
+    <hr>
 
     <router-view></router-view>
 
     </main>
 
     <footer class="gradient-footer">
+
         <div class="footer-menu">
           <router-link to="/">Home</router-link>
           <router-link  to="/onas">O nas</router-link>
@@ -60,7 +62,6 @@
         </div>
 
       <hr>
-
 
       <div class="copyright">
         <p>Copyright &copy; {{ year }} by Prodentica</p>
@@ -115,6 +116,10 @@ body {
   background: linear-gradient(#e7e7e7 50px, white 100px);
   background-repeat: no-repeat;
   margin: 0;
+}
+
+hr {
+   border-top: 1px solid #EBEBEB;
 }
 
 #app {
@@ -213,6 +218,13 @@ a {
 footer {
   height: 100px;
   padding: 15px;
+  margin-top: 25px;
+  font-size: 0.8em;
+}
+
+.footer-menu {
+  width: 1000px;
+  margin: auto;
 }
 
 .footer-menu a{
