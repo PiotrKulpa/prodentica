@@ -1,7 +1,32 @@
 <template>
   <div id="home">
     <h1>Home</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class="home">
+      <h2>Firma</h2>
+      <img src="./assets/images/protezy-k-500x300.jpg">
+      <p>
+        Działając od dwudziestu lat w stomatologii i wychodząc naprzeciw oczekiwaniom Pacjentów, którym pomogliśmy i pomagamy, stworzyliśmy miejsce szczególne w Lublinie – grupową praktykę stomatologiczną z zespołem nastawionym na interdyscyplinarną obsługę pacjentów.
+      </p>
+
+
+    </div>
+    <div class="home">
+      <h2>Zadowolenie Pacjentów</h2>
+        <img src="./assets/images/biznes-pani-500x300.jpg">
+        <p>
+          Pacjenci wracają i rekomendują nas znajomym. Bardzo dziękujemy za lojalność i stałe polecenia usług Prodentica.
+        </p>
+
+    </div>
+    <div class="home">
+      <h2>Doświadczenie</h2>
+      <img src="./assets/images/specjalisci-2-500x300.jpg">
+      <p>
+        Każdy z nas przyjmuje Pacjentów od ponad dekady, asystentki medyczne mają równie bogate doświadczenie. Udane zabiegi możemy liczyć w dziesiątkach tysięcy.
+      </p>
+
+    </div>
+
   </div>
 </template>
 
@@ -18,6 +43,23 @@ export default {
 
 <style>
 
+h1 {
+  width: 100%;
+}
+
+#home {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home {
+  width: 33%;
+  padding: 10px;
+}
+
+.home img {
+  width: 100%;
+}
 
 
 </style>

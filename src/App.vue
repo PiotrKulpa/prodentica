@@ -60,8 +60,10 @@
         </div>
 
       <hr>
+
+
       <div class="copyright">
-        
+        <p>Copyright &copy; {{ year }} by Prodentica</p>
       </div>
 
 
@@ -76,8 +78,16 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Vue.js App',
+      year: this.getYear()
 
+    }
+  },
+  methods: {
+    getYear() {
+      let d = new Date();
+      let y = d.getFullYear();
+      return y;
     }
   }
 }
@@ -202,5 +212,14 @@ a {
 
 footer {
   height: 100px;
+  padding: 15px;
+}
+
+.footer-menu a{
+  color: #656665;
+}
+
+.copyright {
+  text-align: right;
 }
 </style>
