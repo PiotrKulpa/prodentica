@@ -1,6 +1,7 @@
 <template>
   <div id="galeria">
     <h1>Galeria</h1>
+    <h2>W przygotowaniu</h2>
   </div>
 </template>
 

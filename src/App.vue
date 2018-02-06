@@ -15,7 +15,8 @@
         <h3>Gabinet stomatologiczny</h3>
       </div>
       <div class="header-contact">
-        Kontakt
+        <p>081 742 68 24</p>
+        <p>sykutjanusz@gmail.com</p>
       </div>
 
     </header>
@@ -36,7 +37,7 @@
 
         <router-link to="/galeria"><div class="nav-link">Galeria</div></router-link>
 
-        <router-link to="/galeria"><div class="nav-link radial-gradient">Nasz zespół</div></router-link>
+        <router-link to="/zespol"><div class="nav-link radial-gradient">Nasz zespół</div></router-link>
         <router-link to="/kontakt"><div class="nav-link radial-gradient">Kontakt</div></router-link>
       </div>
 
@@ -112,14 +113,15 @@ export default {
 }
 
 body {
-  color: #656665;
+  color: #8b8b8b;
   background: linear-gradient(#e7e7e7 50px, white 100px);
   background-repeat: no-repeat;
   margin: 0;
+  font-family: latolight;
 }
 
 hr {
-   border-top: 1px solid #EBEBEB;
+   border-top: 1px solid #cccbcb;
 }
 
 #app {
@@ -149,6 +151,15 @@ header {
   display: flex;
   align-items: center;
   text-align: center;
+  color: #8b8b8b;
+}
+
+.header-contact {
+  text-align: right;
+}
+
+header h3 {
+  font-family: latoregular, sans-serif;
 }
 
 header div {
@@ -180,7 +191,7 @@ nav {
   border: solid 1px grey;
   color: #8b8b8b;
   padding: 15px;
-  margin: 2px;
+  margin: 1px;
 }
 
 .radial-gradient {
@@ -189,10 +200,15 @@ nav {
   color: white;
 }
 
-.radial-gradient:hover {
-  transition: background-image 5s;
+.radial-gradient-grey {
   background-image: radial-gradient(
-      #00c23a 10%, #009f30 50%);
+    #ffffff 0%, #f9f9f9 50%, #f9f9f9 100%);
+  color: white;
+}
+
+.radial-gradient:hover {
+  transition: color 0.5s;
+  color: #71d759;
 }
 
 .gradient-footer {
@@ -219,7 +235,8 @@ footer {
   height: 100px;
   padding: 15px;
   margin-top: 25px;
-  font-size: 0.8em;
+  font-size: 0.9em;
+  color: #656665;
 }
 
 .footer-menu {
