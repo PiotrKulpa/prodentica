@@ -7,7 +7,7 @@ import Gallery from './Gallery.vue'
 import Team from './Team.vue'
 import Contact from './Contact.vue'
 import VueRouter from 'vue-router'
-import 'font-awesome/css/font-awesome.css'
+import FA from 'font-awesome/css/font-awesome.css'
 
 Vue.use(VueRouter);
 

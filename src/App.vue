@@ -15,8 +15,9 @@
         <h3>Gabinet stomatologiczny</h3>
       </div>
       <div class="header-contact">
-        <p>081 742 68 24</p>
-        <p>sykutjanusz@gmail.com</p>
+        <p>081 742 68 24 <i class="fa fa-phone" aria-hidden="true"></i></p>
+        <p>sykutjanusz@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i></p>
+
       </div>
 
     </header>
@@ -58,7 +59,7 @@
           <router-link  to="/onas">O nas</router-link>
           <router-link to="/przypadki">Nasze przypadki</router-link>
           <router-link to="/galeria">Galeria</router-link>
-          <router-link to="/galeria">Nasz zespół</router-link>
+          <router-link to="/zespol">Nasz zespół</router-link>
           <router-link to="/kontakt">Kontakt</router-link>
         </div>
 
