@@ -10,7 +10,7 @@
       <p>
         Absolwent Uniwersytetu Medycznego w Lublinie. Autor publikacji w czasopismach branżowych. Uczestnik licznych krajowych i zagranicznych kursów oraz konferencji naukowych. Janusz Sykut zajmuje się również zabiegami Medycyny Estetycznej. Obecnie adiunkt w Katedrze i Zakładzie Protetyki Stomatologicznej Uniwersytetu Medycznego w Lublinie.
       </p>
-      <p class="team-link" @click="showTeam1">Więcej >>></p>
+      <p class="team-link" @click="showTeam1"><strong>Więcej</strong> <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></p>
       <div v-if="team1">
         <p>
           W latach 2001-2002 Janusz Sykut był asystentem w Zakładzie Stomatologii Zachowawczej UM w Lublinie. 2001-2007 asystent w Poradni Chirurgii Stomatologicznej Wojewódzkiej Przychodni Stomatologicznej w Lublinie. 2002-2006 rezydent w trakcie specjalizacji w Katedrze i Zakładzie Protetyki Stomatologicznej z Pracownią Implantologii Stomatologicznej i Pracownią Zaburzeń Czynnościowych Narządu Żucia Uniwersytetu Medycznego w Lublinie. W 2004 uzyskał stopień doktora nauk medycznych. W 2006 uzyskał tytuł specjalisty w dziedzinie Protetyki Stomatologicznej. W 2014 roku ukończył czteroletni Implant Continuum Education Program w Collage of Dentistry New York University. W 2015 uzyskał certyfikat Umiejętności w Dziedzinie Implantologii Stomatologicznej EDI OSIS.
@@ -34,7 +34,7 @@
       <p>
         Absolwent Uniwersytetu Medycznego w Lublinie. Obecnie wykładowca w Katedrze i Zakładzie Protetyki Stomatologicznej Uniwersytetu Medycznego w   Lublinie. W 2014 uzyskał stopień specjalisty w zakresie protetyki stomatologicznej. Autor publikacji w czasopismach branżowych. Uczestnik licznych krajowych i zagranicznych kursów i konferencji naukowych.
       </p>
-      <p class="team-link" @click="showTeam2">Więcej >>></p>
+      <p class="team-link" @click="showTeam2"><strong>Więcej</strong> <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></p>
       <div v-if="team2">
         <p>
           W latach 2004-2017 pracownik student studiów doktoranckich oraz asystent w Katedrze i Zakładzie Protetyki Stomatologicznej z Pracownią Implantologii Stomatologicznej i Pracownią Zaburzeń Czynnościowych Narządu Żucia Uniwersytetu Medycznego w Lublinie.<br>
@@ -95,6 +95,10 @@ export default {
 
 .team img {
   width: 100%;
+}
+
+.team-link {
+  cursor: pointer;
 }
 
 

@@ -1,5 +1,11 @@
 <template>
   <div id="app">
+    <!-- <div class="darkbox-box">
+      <i class="fa fa-times-circle close" aria-hidden="true"></i>
+      <div class="img-container">
+
+      </div>
+    </div> -->
 
     <main>
 
@@ -32,14 +38,15 @@
       <div class="nav-links-block">
         <router-link  to="/onas"><div class="nav-link">O nas</div></router-link>
 
-
-        <router-link to="/przypadki"><div class="nav-link radial-gradient">Nasze przypadki</div></router-link>
-
+        <router-link to="/uslugi"><div class="nav-link radial-gradient">Usługi</div></router-link>
 
         <router-link to="/galeria"><div class="nav-link">Galeria</div></router-link>
 
+        <router-link to="/przypadki"><div class="nav-link radial-gradient">Nasze przypadki</div></router-link>
+
         <router-link to="/zespol"><div class="nav-link radial-gradient">Nasz zespół</div></router-link>
-        <router-link to="/kontakt"><div class="nav-link radial-gradient">Kontakt</div></router-link>
+
+        <router-link to="/kontakt"><div class="nav-link">Kontakt</div></router-link>
       </div>
 
 
