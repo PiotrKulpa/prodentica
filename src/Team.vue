@@ -5,8 +5,8 @@
 
     <div class="team">
       <img src="./assets/images/janusz-380x380.jpg">
-      <h2>Janusz Sykut</h2>
-      <h3>dr n. med.</h3>
+      <h2>DR N. MED JANUSZ SYKUT</h2>
+      <h3>SPECJALNOŚĆ  PROTETYKA, CHIRURGIA, IMPLANTOLOGIA</h3>
       <p>
         Absolwent Uniwersytetu Medycznego w Lublinie. Autor publikacji w czasopismach branżowych. Uczestnik licznych krajowych i zagranicznych kursów oraz konferencji naukowych. Janusz Sykut zajmuje się również zabiegami Medycyny Estetycznej. Obecnie adiunkt w Katedrze i Zakładzie Protetyki Stomatologicznej Uniwersytetu Medycznego w Lublinie.
       </p>
@@ -29,8 +29,8 @@
 
     <div class="team">
       <img src="./assets/images/domi-380x380.jpg">
-      <h2>Przemek Kleinrok</h2>
-      <h3>Lekarz stomatologii</h3>
+      <h2>DR KATARZYNA RADEJ</h2>
+      <h3>SPECJALNOŚĆ PEDODOCJA (STOMATOLOGIA  DZIECIĘCA, ZACHOWAWCZA)</h3>
       <p>
         Absolwent Uniwersytetu Medycznego w Lublinie. Obecnie wykładowca w Katedrze i Zakładzie Protetyki Stomatologicznej Uniwersytetu Medycznego w   Lublinie. W 2014 uzyskał stopień specjalisty w zakresie protetyki stomatologicznej. Autor publikacji w czasopismach branżowych. Uczestnik licznych krajowych i zagranicznych kursów i konferencji naukowych.
       </p>
@@ -47,12 +47,13 @@
     </div>
     <div class="team">
       <img src="./assets/images/iza-zysko-380x380.jpg">
-      <h2>Iza Żyśko</h2>
-      <h3>Asystentka Medyczna</h3>
+      <h2>DR PRZEMYSŁAW KOPEĆ</h2>
+      <h3>SPECJALNOŚĆ ENDODONCJA</h3>
       <p>
         Podpora naszego gabinetu od 2010 r. Ukończyła Technologię Żywności na Uniwersytecie Przyrodniczym, a następnie odbyła wiele kursów i szkoleń wewnętrznych oraz zewnętrznych (żeby tylko wymienić: asysta, sterylizacja, dezynfekcja, ergonomia pracy, recepcja). Iza współpracuje ze wszystkimi lekarzami Prodentica Stomatologia. Jej główne zadania to: asysta przy zabiegach, sterylizacja, obsługa recepcji, koordynacja pracy gabinetu.
       </p>
     </div>
+    <h1>Kompleksowe leczenie & profilaktyka</h1>
   </div>
 </template>
 
@@ -89,7 +90,7 @@ export default {
 }
 
 .team {
-  width: 33%;
+  width: 33.3%;
   padding: 5px;
 }
 

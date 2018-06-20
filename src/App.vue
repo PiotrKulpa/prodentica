@@ -21,8 +21,8 @@
         <h3>Gabinet stomatologiczny</h3>
       </div>
       <div class="header-contact">
-        <p>081 742 68 24 <i class="fa fa-phone" aria-hidden="true"></i></p>
-        <p>sykutjanusz@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i></p>
+        <p><a href="tel:081 742 68 24">081 742 68 24 <i class="fa fa-phone" aria-hidden="true"></i></a></p>
+        <p><a href="mailto:sykutjanusz@gmail.com">sykutjanusz@gmail.com <i class="fa fa-envelope" aria-hidden="true"></i></a></p>
 
       </div>
 
@@ -31,22 +31,22 @@
     <nav>
 
       <div class="nav-home-block">
-        <router-link to="/"><div class="nav-home radial-gradient">Home</div></router-link>
+        <router-link to="/" exact active-class="active"><div class="nav-home radial-gradient">Home</div></router-link>
       </div>
 
 
       <div class="nav-links-block">
-        <router-link  to="/onas"><div class="nav-link">O nas</div></router-link>
+        <router-link  to="/onas" active-class="active"><div class="nav-link">O nas</div></router-link>
 
-        <router-link to="/uslugi"><div class="nav-link radial-gradient">Usługi</div></router-link>
+        <router-link to="/uslugi" active-class="active"><div class="nav-link radial-gradient">Usługi</div></router-link>
 
-        <router-link to="/galeria"><div class="nav-link">Galeria</div></router-link>
+        <router-link to="/galeria" active-class="active"><div class="nav-link">Galeria</div></router-link>
 
-        <router-link to="/przypadki"><div class="nav-link radial-gradient">Nasze przypadki</div></router-link>
+        <router-link to="/przypadki" active-class="active"><div class="nav-link radial-gradient">Nasze przypadki</div></router-link>
 
-        <router-link to="/zespol"><div class="nav-link radial-gradient">Nasz zespół</div></router-link>
+        <router-link to="/zespol" active-class="active"><div class="nav-link radial-gradient">Nasz zespół</div></router-link>
 
-        <router-link to="/kontakt"><div class="nav-link">Kontakt</div></router-link>
+        <router-link to="/kontakt" active-class="active"><div class="nav-link">Kontakt</div></router-link>
       </div>
 
 
@@ -62,11 +62,11 @@
     <footer class="gradient-footer">
 
         <div class="footer-menu">
-          <router-link to="/">Home</router-link>
-          <router-link  to="/onas">O nas</router-link>
-          <router-link to="/przypadki">Nasze przypadki</router-link>
-          <router-link to="/galeria">Galeria</router-link>
-          <router-link to="/zespol">Nasz zespół</router-link>
+          <router-link to="/">Home</router-link><span> | </span>
+          <router-link  to="/onas">O nas</router-link><span> | </span>
+          <router-link to="/przypadki">Nasze przypadki</router-link><span> | </span>
+          <router-link to="/galeria">Galeria</router-link><span> | </span>
+          <router-link to="/zespol">Nasz zespół</router-link><span> | </span>
           <router-link to="/kontakt">Kontakt</router-link>
         </div>
 
@@ -154,6 +154,12 @@ h1, h2 {
   color: #71d759;
 }
 
+.active {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+
 header {
   height: 150px;
   display: flex;
@@ -164,6 +170,18 @@ header {
 
 .header-contact {
   text-align: right;
+}
+
+.header-image {
+  margin: 0;
+}
+
+.header-image img {
+  margin-bottom: -6px;
+}
+
+.header-contact a {
+  color: #8b8b8b;
 }
 
 header h3 {
@@ -184,7 +202,7 @@ nav {
 }
 
 .nav-home {
-  width: 300px;
+  width: 388px;
   height: 300px;
   padding: 15px;
   margin: 2px;
@@ -215,8 +233,14 @@ nav {
 }
 
 .radial-gradient:hover {
-  transition: color 0.5s;
+  transition: color 0.5s, transform 0.2s;
   color: #71d759;
+  transform: scale(1.05);
+}
+
+.nav-link:hover {
+  transition: transform 0.2s;
+  transform: scale(1.05);
 }
 
 .gradient-footer {
@@ -225,12 +249,11 @@ nav {
 }
 
 ul {
-  list-style-type: none;
-  padding: 0;
+  list-style-type: circle;
 }
 
 li {
-  display: inline-block;
+  //display: inline-block;
   margin: 0 10px;
 }
 

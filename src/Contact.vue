@@ -1,13 +1,12 @@
 <template>
   <div id="kontakt">
-    <h1>Kontakt</h1>
     <div>
 
-      <h2>Gabinet stomatologiczny. Janusz Sykut</h2>
-      <p>Ulica ul. Altanowa   4  / 6</p>
-      <p>Lublin</p>
-      <p>Telefon: 081 742 68 24</p>
-
+      <h1>SKONTAKTUJ SIĘ Z NAMI:</h1>
+      <p>Prodentica</p>
+      <p>ul. Altanowa 4/U6</p>
+      <p>20-819 Lublin</p>
+      <p>tel.: 570 727 676</p>
 
     </div>
     <google-map  name="example"></google-map>
@@ -32,6 +31,9 @@ export default {
 
 <style>
 
+#kontakt, #kontakt h1 {
+  text-align: center;
+}
 
 
 </style>

@@ -5,26 +5,39 @@
     <hr>
 
     <div class="case" v-if="c1">
-      Natychmiastowa implantacja, natychmiastowe obciążenie wszczepów
-      Zabieg implantacji przeprowadzony w nawigacji komuterowej.
-      Bezzębny pacjent w ciagu jednej godziny został zaopatrzony w implanty i zęby, podjał natychmiastową funkcję żucia.  Zabieg   wykonywany  był  bez  cięcia  chirurgicznego  w  znieczuleniu miejscowym, trwał okolo 1 godziny. Przez miesiac pacjent musiał utrzymywać miękką dietę.
+      <h3>Natychmiastowa implantacja, natychmiastowe obciążenie wszczepów</h3>
+      <p>Zabieg implantacji przeprowadzony w nawigacji komuterowej.</p>
+      <p>Bezzębny pacjent w ciagu jednej godziny został zaopatrzony w implanty i zęby, podjał natychmiastową funkcję żucia.  Zabieg   wykonywany  był  bez  cięcia  chirurgicznego  w  znieczuleniu miejscowym, trwał okolo 1 godziny. Przez miesiac pacjent musiał utrzymywać miękką dietę.</p>
+      <p>Tymczasowy most akrylowy przykręcony do implantów po 3 miesiącach został wymieniony na most stały ostateczny.</p>
 
-      Tymczasowy most akrylowy przykręcony do implantów po 3 miesiącach został wymieniony na most stały ostateczny.
+      <h3>Przed zabiegiem</h3>
+      <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a> <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a>
+      <p>Zęby w jedną godzinę - implantacja przeprowadzona w nawigacji komputerowej Nobel GUIDE
+        </p>
+      <h3>Po zabiegu</h3>
+      <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a> <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a>
 
-      Przed zabiegiem
-      Zęby w jedną godzinę - implantacja przeprowadzona w nawigacji komputerowej Nobel GUIDE
-
-      Po zabiegu
-
-      Ostateczny most akrylowy
+      <p>Ostateczny most akrylowy</p>
     </div>
     <div class="case" v-if="c2">
-      Pełnoceramiczne korony porcelanowe na przebarwionych zębach
-      Mocno przebarwione i zniszczone jedynki zostały przeleczone kanałowo, a następnie wzmocnione ćwiekami (wkładami koronowo - korzeniowymi) z włókna kwarcowego, po czym zostały pokryte pełnoceramicznymi koronami porcelanowymi.
+      <h3>Pełnoceramiczne korony porcelanowe na przebarwionych zębach</h3>
+      <p>Mocno przebarwione i zniszczone jedynki zostały przeleczone kanałowo, a następnie wzmocnione ćwiekami (wkładami koronowo - korzeniowymi) z włókna kwarcowego, po czym zostały pokryte pełnoceramicznymi koronami porcelanowymi.</p>
+      <h3>Przed zabiegiem</h3>
+      <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a> <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a>
+      <p>Pełnoceramiczne korony porcelanowe przed zabiegiem</p>
+      <h3>Po zabiegu</h3>
+      <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a> <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a>
+      <p>Pełnoceramiczne korony porcelanowe po zabiegu</p>
     </div>
     <div class="case" v-if="c3">
-      Stomatologia estetyczna - osadzenie korony pełnoceramicznej
-      Nieestetyczna jedynka zniszczona z powodu niedorozwoju szkliwa oraz licznymi zabiegami stomatologicznymi w przeszłości została powtórnie przeleczona endodontycznie oraz wzmocniona wkładem koronowo korzeniowym z włókna kwarcowego. Następnie po odpowiedniej preparacji na ząb została osadzona pełnoceramiczna korona porcelanowa.
+      <h3>Stomatologia estetyczna - osadzenie korony pełnoceramicznej</h3>
+      <p>Nieestetyczna jedynka zniszczona z powodu niedorozwoju szkliwa oraz licznymi zabiegami stomatologicznymi w przeszłości została powtórnie przeleczona endodontycznie oraz wzmocniona wkładem koronowo korzeniowym z włókna kwarcowego. Następnie po odpowiedniej preparacji na ząb została osadzona pełnoceramiczna korona porcelanowa.</p>
+      <h3>Przed zabiegiem</h3>
+      <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a> <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a>
+      <p>Osadzenie korony pełnoceramicznej przed zabiegiem</p>
+      <h3>Po zabiegu</h3>
+      <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a> <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a>
+      <p>Osadzenie korony pełnoceramicznej po zabiegu</p>
     </div>
   </div>
 </template>

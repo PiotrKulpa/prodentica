@@ -6,9 +6,7 @@
 
       </div>
     </div>
-    <img class="darkbox" src="./assets/images/biznes-pani-500x300.jpg" alt="sas">
-    <img class="darkbox" src="./assets/images/dzieci-480x300.jpg" alt="asas">
-    <img class="darkbox" src="./assets/images/specjalisci-2-500x300.jpg" alt="asas">
+    
     <img class="darkbox" src="./assets/images/placeholder.jpg" alt="asa">
     <img class="darkbox" src="./assets/images/placeholder2.jpg" alt="asa">
     <img class="darkbox" src="./assets/images/placeholder3.jpg" alt="asa">
@@ -27,7 +25,7 @@ export default {
   name: 'app',
   data () {
     return {
-      thumbSize: 300,
+      thumbSize: 330,
       imgSize: 900,
     }
   },

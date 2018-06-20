@@ -53,7 +53,7 @@ h1 {
 }
 
 .home {
-  width: 33%;
+  width: 33.3%;
   padding: 10px;
 }
 

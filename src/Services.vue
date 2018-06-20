@@ -1,155 +1,203 @@
 <template>
   <div id="galeria">
-    <h1>Usługi</h1>
+    <h1>Zakres Usług:</h1>
+
+    <div class="services" @click="showService">
+      <h2>Profilaktyka <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></h2>
+      <div class="services-hide">
+        <ul>
+          <li>usuwanie kamienia i osadów nazębnych</li>
+          <li>piaskowanie osadów</li>
+          <li>znoszenie nadwrażliwości zębów i szyjek zębów</li>
+          <li>lapisowanie ubytków w zębach mlecznych</li>
+          <li>fluoryzacja kontaktowa w profilaktyce próchnicy</li>
+          <li>lakowanie bruzd i lakierowanie zębów</li>
+          <li>instruktaże dotyczące prawidłowej higieny j. ustnej i masażu dziąseł z doborem odpowiedniego osprzętu: szczotek, nici, floserów, irygatorów, preparatów ,past itp.</li>
+          <li>instruktaże ćwiczeń mioterapeutycznych i postępowania: we wczesnej profilaktyce ortodontycznej, przy zaburzeniach połykania, wadach zgryzu, związanych z eliminacją zaburzeń w stawach skroniowo-żuchwowych</li>
+          <li>plastrowanie/kynesiology taping/</li>
+          <li>stosowanie płytek relaksacyjnych różnej grubości i twardości u pacjentów z obniżoną wysokością zwarcia i przy bruksizmie /”zgrzytanie zębów”/</li>
+          <li>płytki przedsionkowe, płytki ochronne sportowe</li>
+          <h3>Skontaktuj się</h3>
+          <p>SPECJALISTA DR KATARZYNA RADEJ,</p>
+          <p>DR PRZEMYSŁAW KOPEĆ</p>
+        </ul>
+      </div>
+    </div>
+
+    <div class="services" @click="showService">
+      <h2>Stomatologia zachowawcza i estetyczna <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></h2>
+      <div class="services-hide">
+        <ul>
+          <li>odbudowy ubytków próchnicowych zębów mlecznych i stałych, żywych i martwych</li>
+          <li>leczenie ubytków szkliwa i zębiny klinowych i innych niepróchnicowego pochodzenia</li>
+          <li>korekty ubytków i niedorozwojów szkliwa</li>
+          <li>rekonstrukcje zębów złamanych po urazach</li>
+          <li>odbudowy rozległych ubytków zębów met. bezpośrednią lub pośrednią z zastosowaniem wkładów i nakładów / inlay, onlay/ kompozytowych lub porcelanowych</li>
+          <li>korekty koloru i kształtu zębów</li>
+          <li>maskowanie przebarwień</li>
+          <li>licowanie zębów kompozytem</li>
+          <li>leczenie przyżyciowe zębów</li>
+          <li>szynowanie kompozytem zębów rozchwianych z zastosowaniem wzmocnień taśmami z włókna szklanego</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="services" @click="showService">
+    <h2>Stomatologia Dziecięca <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></h2>
+    <div class="services-hide">
+      <h3>Mali Pacjenci</h3>
+      <p>„Częstym błędem popełnianym w lecznictwie dziecięcym jest traktowanie dziecka jako pacjenta, któremu można wykonać zabieg wbrew jego przyzwoleniu, znienacka czy „na siłę” w razie oporu czy pośpiechu. Powoduje to, że powstały w trakcie tak wykonanego zabiegu uraz oraz stres i utracone zaufanie będą naznaczały takiego pacjenta na całe jego dalsze życie.”</p>
+      <h3>Skontaktuj się</h3>
+      <p>SPECJALISTA DR  KATARZYNA RADEJ,</p>
+      <p>Wizyta dziecka w gabinecie stomatologicznym musi przebiegać w sposób pozwalający dziecku nabrać zaufania i przekonania, że nie stanie mu się krzywda w jego odczuciu. Stąd niewskazany jest pośpiech, a więc pierwsze wizyty, których może być kilka zanim dziecko uda się przekonać do zgody na badanie i dalsze leczenie, nie powinny wynikać z nagłej potrzeby interwencji związanej z dolegliwościami bólowymi, w przypadku których, niestety na odkładanie wizyty często nie można sobie pozwolić z uwagi na zaawansowanie problemu.</p>
+      <p><strong>Uspokojenie podtlenkiem azotu</strong></p>
+      <p>Leczenie zaniepokojonych pacjentów jest również przyczyną stresu wśród lekarzy dentystów i personelu medycznego, czyniąc kwestię walki z lękiem kluczowym wyzwaniem we współczesnej stomatologii.</p>
+      <p>Sedacja wziewna z użyciem mieszaniny podtlenku azotu i tlenu jest jedną z najskuteczniejszych dostępnych metod uspokajania pacjentów w stomatologii i innych dziedzinach medycyny zabiegowej. Metoda ta jest powszechnie akceptowana i przyjmowana z entuzjazmem przez pacjentów obawiających się wizyt stomatologicznych. System sedacji wziewnej wyróżnia bezpieczeństwo, niezawodność oraz łatwość obsługi potrzebne do bezstresowego leczenia zarówno dla pacjenta, jak i lekarza.</p>
+      <p>Gaz rozweselający jest bardzo bezpieczny i nieszkodliwy szczególnie przydatny dla dzieci i dorosłych odczuwających silny lęk przed wizytą u dentysty i leczeniem. Jest stosowant w medycynie i stomatologii od dawna.</p>
+      <p>Zastosowanie gazu antystresowego wprowadza pacjenta w stan rozluźnienia i odprężenia, redukując nieprzyjemne odczucia związane z leczeniem. Dawkę podtlenku azotu dostosowuje się do poziomu stresu u pacjenta, co oznacza, że można pogłębiać bądź spłycać stan relaksacji. Cały czas utrzymywany jest kontakt z pacjentem, który przebywa w stanie przyjemnej euforii. U najmłodszych pacjentów dość często pojawiają się marzenia senne na jawie np. latanie samolotem, rakietą kosmiczną, taniec na balu, itp. Gaz rozweselający wdycha się za pomocą maseczki zakładanej na nos. Każdy pacjent ma swoją własną maseczkę.</p>
+      <p>Ponieważ podtlenek azotu wykazuje działanie zneczulające, małe zabiegi mogą odbyć się bez znieczulenia. Jednak w przypadku bardziej skomplikowanego leczenia nieczulenie miejscowe jest jak najbardziej możliwe.</p>
+       
+      <p><strong>Kiedy podanie gazu rozweselającego daje najlepsze rezultaty</strong></p>
+
+      <ul>
+        <li>jeżeli Ty lub twoje dziecko odczuwacie lęk przed jakimkolwiek leczeniem stomatologicznym;</li>
+        <li>jeżeli Twoje dziecko nie było jeszcze leczone stomatologicznie;</li>
+        <li>jeżeli odczuwasz silny strach przed leczeniem stomatologicznym;</li>
+        <li>jeżeli nie chcesz się bać dentysty;</li>
+        <li>jeżeli pacjent ma silny odruch wymiotny i nie można pobrać wycisku, zrobić zdjęcia rtg;</li>
+        <li>jeżeli wyrwanie zęba wydaje się być czymś trudnym do zniesienia;</li>
+      </ul>
+ 
+      <p>
+        <strong>Zalecenia dla pacjentów</strong>
+      </p>
+
+      <ul>
+        <li>nie jeść co najmniej 3 godz. przed zabiegiem;</li>
+        <li>dzieci muszą przychodzić z dorosłą osobą towarzyszącą;</li>
+        <li>nie nakładać ciasnych ubrań;</li>
+        <li>wg piśmiennictwa po 30 minutach od zakończenia podawanego gazu można prowadzić pojazdy mechaniczne, jednak ze względu na bezpieczeństwo zalecamy naszym pacjentom, aby w dniu wykonania sedacji nie prowadzili pojazdów mechanicznych</li>
+      </ul>
+
+      - wizyty adaptacyjne
+      - leczenie próchnicy zębów mlecznych i stałych stałych (wypełnienia kompozytowe kolorowe, białe, wypełnienia glassjonomerowe)
+      - lakowanie zębów(laki mogą być białe, kolorowe, uwalniające fluor)
+      - usuwanie zębów mlecznych i stałych
+      - ozonoterapia
+      - fluoryzacje
+      - usuwanie złogów nazębnych, piaskowanie
+      - bezstresowe leczenie w sedacji wziewnej podtlenkiem azotu(gaz rozweselający)
+      - nagrody i dyplomy  dla dzielnych pacjentów
+      - w trakcie wizyty dzieci oglądają bajki na ekranie telewizora
+
+    </div>
+    </div>
 
     <div class="services" @click="showService">
       <h2>Leczenie endodontyczne <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></h2>
       <div class="services-hide">
-        <h3>Dewitalizacja miazgi</h3>
-        <p>Leczenie endodontyczne, czyli kanałowe jest w większości przypadków powikłaniem nieleczonej próchnicy. Dewitalizacja miazgi to w uproszczeniu  zatrucie zęba, które lekarz wykona w pierwszym etapie leczenia kanałowego.Pacjentce/ Pacjentowi na okres od 7. do 14. dni zostanie założony opatrunek, a pod nim umieścimy specjalną substancję, powodującą kontrolowaną martwicę zęba. Umartwienie miazgi spowoduje ustąpienie istniejących dolegliwości bólowych.</p>
+        Leczenie kanałowe jest niezbędne, kiedy miazga, tkanka miękka wypełniająca wnętrze zęba, jest w stanie zapalnym lub jest zakażona. Główne przyczyny to  głęboka próchnica oraz urazy zęba. Nieleczone zapalenie miazgi skutkuje dolegliwościami bólowymi i może prowadzić prowadzi do powstania ropnia.  Częste objawy to zwiększona wrażliwość na ciepło, tkliwość zęba przy nagryzaniu oraz powiększenie okolicznych węzłów chłonnych.
+        Leczenie kanałowe jest przeprowadzane, aby uwolnić pacjenta od bólu. Przy użyciu nowoczesnych metod znieczulania możliwe jest znaczne zredukowanie bólu. Większość pacjentów nie odczuwa dyskomfortu w czasie leczenia. Parę dni po leczeniu ząb może być nadwrażliwy, szczególnie jeśli był leczony z powodu zaawansowanego stanu zapalnego z burzliwymi objawami przed leczeniem. Te dolegliwości można zminimalizować stosując leki zalecone przez dentystę oraz stosując się do jego zaleceń.
+        Endodoncja to inne określenie leczenia kanałowego, które obejmuje usuwanie uszkodzonych lub martwych nerwów i naczyń krwionośnych z korzenia zęba, który został zakażony w skutek działania próchnicy, ukruszenia lub urazu. Przestrzeń pozostała po usunięciu nerwu jest wypełniana materiałem, który uszczelnia ząb i pozwala mu funkcjonować jak dotychczas.
+        Powtórne leczenie kanałowe (re-endo) może być skomplikowaną i wymagającą procedurą, obejmującą usunięcie materiału obecnie wypełniającego kanał, ponowne czyszczenie kanału i wypełnienie go nowym materiałem. Mikroskop wykorzystujemy w skomplikowanych przypadkach leczenia kanałowego, w przypadku zębów trudno dostępnych, do znajdywania trudnych do znalezienia wejść do kanałów oraz do usuwania resztek zęba lub instrumentów medycznych i chirurgii kanałowej.
+        Leczenie endodoncyjne może w sposób bezpieczny i komfortowy na wiele lat uratować ząb, który w innych okolicznościach trzeba by usunąć.
+        Pamiętaj, że zdrowy, wyleczony ząb jest zawsze lepszy od sztucznego. Ostateczny wybór zawsze należy do ciebie, ale utrata zęba wiąże się z licznymi niedogodnościami. Kiedy usunięty ząb nie zostanie zastąpiony, zęby sąsiadujące z pustym miejscem po nim zaczynają zmieniać swoje normalne położenie. Może to prowadzić do ich wykrzywienia lub ściśnięcia powodującego utratę skuteczności gryzienia i żucia.
+        Po wykonaniu zdjęcia RTG oraz znieczulenia ząb oczyszcza się z próchnicy. Następnie otwiera się komorę zęba, aby dostać się do zainfekowanej miazgi. Za pomocą endometru  ustalana jest długość kanałów korzeniowych, które odpowiednio kształtuje się i oczyszcza .  Kanały wypełniane są metodą termiczną aby uzyskać doskonałą szczelność.
+        W Studio Uśmiechu w czasie leczenia kanałowego stosujemy nowoczesny sprzęt diagnostyczno- terapeutyczny (m.in. mikroskop, mikrosilnik endodontyczny,  endometr)
 
-        <p><strong>Ekstyrpacja miazgi z komory i jednego kanału oraz chemomechaniczne opracowanie kanału</strong></p>
-          <p>Lekarz może pominąć etap zatrucia zęba i zakładania opatrunku. Wówczas w leczeniu kanałowym przejdzie od razu na pierwszej wizycie do “ekstrypacji”, czyli oczyszczenia kanału z chorej miazgi. Zabieg jest wykonywany w znieczuleniu. Pacjentce/ Pacjentowi zostaje oczyszczony kanał – opracowany, a później dokładnie i szczelnie wypełniony na stałe specjalnie do tego przeznaczonymi materiałami.</p>
+        • Opracowanie i wypełnienie jednego kanału
+        • Opracowanie i wypełnienie dwóch kanałów
+        • Opracowanie i wypełnienie trzech kanałów
+        • Opracowanie i wypełnienie kanałów pod mikroskopem
+        • Opracowanie i wypełnienie dodatkowego kanału
+        • Usunięcie złamanego narzędzia
+        • Usunięcie starego wkładu koronowo-korzeniowego
 
-        <p><strong>Wypełnienie jednego kanału techniką gorącej gutaperki</strong></p>
-          <p>Gutaperka to nazwa substancji pochodzenia naturalnego, która po zastygnięciu szczelnie i trwale wypełni kanał korzeniowego. Pacjentka/ Pacjent jest w znieczuleniu miejscowym więc nie odczuwa dolegliwości bólowych.</p>
+
+
+          Skontaktuj się
+          DR PRZEMYSŁAW KOPEĆ
+      </div>
+    </div>
+    <div class="services" @click="showService">
+      <h2>Protetyka <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></h2>
+      <div class="services-hide">
+        Serdecznie zapraszamy na bezpłatną konsultację protetytczną
+
+        Protetyka
+        • wkłady koronowo- korzeniowe lane i standardowe
+        • korony i mosty porcelanowe napalane na metalu i pełnoceramiczne
+        • Korona pełnoceramiczna (bez podbudowy – najwyższa estetyka): – w systemie Empress II, – porcelana skaleniowa, – w systemie Procera
+        • licówki ceramiczne lub kompozytowe
+        • licówki pełnoceramiczne
+        • wkłady, nakłady porcelanowe i kompozytowe
+        • korony i mosty tymczasowe akrylowe i kompozytowe
+        • protezy osiadające częściowe i całkowite
+        • protezy natychmiastowe częściowe i całkowite
+        • szynoprotezy i protezy szkieletowe
+        • protezy mocowane kosmetycznie na zatrzaskach, zasuwach czy belkach
+        • uzupełnienia protetyczne mocowane na implantach
+        • protezy nakładkowe /overdenture/mocowane na resztkowym uzębieniu- korzeniach zębów z zamocowanymi wkładami koronowo- korzeniowymi z zatrzaskami lub na implantach
+        • płytki relaksacyjne i ochronne miękkie i twarde o różnej grubości
+                współpraca z ortodontą w sprawach przedprotetycznego leczenia ortodontycznego
+        • Modele diagnostyczne
+        • Diagnostyczne nawoskowanie (za punkt)
+              Skontaktuj się
+          SPECJALISTA DR N. MED JANUSZ SYKUT
       </div>
     </div>
 
     <div class="services" @click="showService">
-      <h2>Leczenie dzieci <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></h2>
+      <h2>Chirurgia stomatologiczna i periodontologiczna <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></h2>
       <div class="services-hide">
-        <p>Rodzice i Dzieci chwalą nie tylko to, że można obejrzeć bajki podczas wizyty, ale też Specjalistów, którzy mają “podejście” do Młodych Pacjentów :). Specjalizujemy się w bezbolesnym usuwaniu próchnicy u najmniejszych Dzieci, ale oczywiście wachlarz usług jest szerszy.</p>
+        • usuwanie zębów stałych i mlecznych
+        • usuwanie zębów z utrudnionym wyrzynaniem i zębów zatrzymanych /poprzez dłutowanie wewnątrz zębodołowe lub zewnątrz zębodołowe /
+        • usuwanie nawisów dziąsłowych zębów z utrudnionym wyrzynaniem
+        • zamykanie poekstrakcyjnych połączeń ustno- zatokowych i plastyki przetok ustno-zatokowych
+        • resekcje wierzchołków korzeni zębów
+        • hemisekcje, premolaryzacje zębów
+        • leczenie chirurgiczne torbieli metodą wyłuszczenia lub wgłobienia
+        • wszczepianie preparatów kościotwórczych i kościozastępczych oraz sterowana regeneracja kości
+        • plastyka wyrośli kostnych i chirurgiczne przygotowanie wyrostków zębodołowych do protezowania
+        • plastyka przerostów tkanek miękkich/usuwanie tzw. „grzebieni kogucich”czy „ziarniniaków szczelinowatych”/
+        • leczenie przerostów wędzidełek warg, języka i policzków poprzez wycięcie lub plastykę na „ostro” lub z zastosowaniem elektrokoagulacji
+        • pobieranie wycinków tkanek miękkich i twardych do badania hist.-pat. , nacięcia ropni, leczenie zapaleń zębodołów/tzw.”suchych czy pustych zębodołów”/
+        • pogłębianie przedsionków
+        • kiretaże otwarte i zamknięte
+        • gingiwektomie
+        • chirurgiczne wydłużanie koron dla korekty kosmetycznej i wydłużanie korzeni zębów dla celów odbudowy protetycznej
+        • wszczepianie mini implantów stabilizujących protezy całkowite
+        • unieruchamianie zębów i stawów skroniowo-żuchwowych/ss-ż/ po urazach szczęk
+        • repozycja zwichnięć ss-ż
+        • współpraca z implantologami w zakresie leczenia implantologicznego w pełnym zakresie
+        • w trudnych przypadkach współpraca ze specjalistami periodontologami lub ortodontami
 
-        <p><strong>Aparaty lingwalne</strong></p>
-        <p>Aparaty językowe to kolejna praktycznie niewidoczna metoda wyrównania zębów. Zamki tego typu aparatów przyklejane są na wewnętrznej, językowej powierzchni zębów. Dzięki temu są całkowicie niezauważalne. Aparaty lingwalne są przeznaczone dla pacjentów wymagających dużej estetyki, którzy nie chcą nosić tradycyjnych aparatów wargowych. Mogą skorygować każdą wadę zgryzu, zarówno u dorosłych jak i młodzieży. Aparaty lingwalne projektowane są komputerowo oraz wykonywane indywidualnie. Dzięki temu możliwe jest osiągnięcie największej precyzji leczenia ortodontycznego. Indywidualnie dopasowane zamki są bardzo płaskie, co zapewnia komfort podczas użytkowania.</p>
-
-        <p><strong>Ortodoncja Dziecięca</strong></p>
-        <p>Rekomenduje się przeprowadzenie kontroli ortodontycznej u Dzieci w wieku 7 lat. Podczas wizyty kontrolnej ortodonta ocenia na podstawie położenia pierwszych trzonowych zębów stałych oraz zębów siecznych, czy jest obecna wada zgryzu kwalifikująca się do wczesnego leczenia ortodontycznego. Dlaczego badamy zgryz u Dzieci?</p>
-        <ul>
-          <li>– podparcie zgryzu wynika z wyrzynania się pierwszych stałych zębów trzonowych. Po ich pojawieniu się możliwa jest ocena przednio-tylnych oraz poprzecznych relacji w zgryzie, jak również wykrycie czynnościowego zbaczania żuchwy;</li>
-          <li>– podczas wyrzynania siekaczy stałych można wykryć takie problemy jak: stłoczenie, nawyki nagryzania wargi, zgryz otwarty, zgryz głęboki, asymetrie twarzy;</li>
-          <li>– dla niektórych Dzieci wcześniejsza ocena zgryzu może przynieść duże korzyści lecznicze. Główną zaletą wczesnej diagnostyki jest posiadanie pełnej informacji co do rozwoju zgryzu oraz świadomość co do potrzeb leczniczych.</li>
-        </ul>
-
-        <p>
-          W przypadku wad i odchyleń takich jak: zgryz krzyżowy, otwarty, tyłozgryz, stłoczenie zębów, rozpoczyna się ortodontyczne leczenie wczesne, które pozwala na harmonijne ukierunkowanie wzrastających zębów i struktur twarzy. Wczesne leczenie u ortodonty jest czasami niezbędne i może prawidłowo przygotować miejsca dla wyrzynających się zębów stałych, tym samym można uniknąć konieczności usuwania zębów stałych w przyszłości. Leczenie ma również na celu pobudzanie lub hamowanie wzrastania górnej i dolnej szczęki. Pomaga to skorygować dysproporcje w ich budowie i kształcie, wyleczyć rozbieżności ich wzajemnego położenia, co w efekcie pozwala poprawić wygląd rysów twarzy. Ze względu na to, że u niektórych dzieci utrzymuje się nawykowe ssanie kciuka lub wargi dolnej, nie do końca prawidłowy sposób połykania, problemy z wymową lub oddychanie wyłącznie przez usta, warto wysłać dziecko do ortodonty w celu wczesnego skorygowania wymienionych wad. Wczesne leczenie ortodontyczne znacznie ułatwia późniejsze leczenie w wieku młodzieńczym, tak aby było możliwie krótkie i nie wymagało usuwania zębów i innych zabiegów chirurgicznych. W przypadku poważnych wad u osób z rozbieżnością w położeniu szczęk niepodjęcie wczesnego leczenia powoduje, że efekty późniejszej kuracji mogą być kompromisowe i niestabilne.
-        </p>
-
-        <p><strong>Fluoryzacja zębów</strong></p>
-        <p>Fluoryzacja zębów mlecznych to zabieg szybki, bezbolesny i w pełni bezpieczny. Zabieg trwa kilka minut. Na ząbki Malucha za pomocą miękkiej, jednorazowej łyżki lub szczoteczki, nakładamy piankę stomatologiczną o dużej zawartości fluoru i przyjemnym, owocowym smaku. Fluor przenika do szkliwa – w ten sposób wzmacnia jego strukturę i czyni odporniejszym na kwasy, produkowane przez bakterie płytki nazębnej. Istnieje błędne przekonanie, iż fluoryzacja zębów u Dzieci bardziej szkodzi, niż pomaga. Tymczasem z fluorem jest podobnie jak z nitrogliceryną – z jednej strony uznawana jest za substancję toksyczną, stosowaną do produkcji dynamitu, z drugiej zaś ratuje ludzkie życie, pomagając chorym na choroby niedokrwienne serca. Najważniejsze jest tutaj dawkowanie i właściwa procedura podania. Fluoryzacja zębów jest zabiegiem w pełni bezpiecznym. Fluor w postaci pianki, aplikowany na zęby, nie zagraża zdrowiu Malucha, a chroni jego uśmiech przed próchnicą, czego dowodem są nasi zdrowi Mali Pacjenci. Fluorowanie zapewnia dodatkową ochronę przed rozwojem próchnicy, co jest szczególnie istotne w przypadku Najmłodszych Pacjentów, gdy niełatwo o utrzymanie dokładnej, prawidłowej higieny jamy ustnej.</p>
-
-        <p><strong>Lakowanie zębów</strong></p>
-        Bruzdy i szczeliny zębowe są miejscami trudno dostępnymi – bardzo trudno jest je oczyścić podczas codziennego szczotkowania zębów. Stąd w bruzdach szybko pojawia się próchnica. Lakowanie to metoda polegająca na uszczelnianiu bruzd. Stosuje się ją głównie u osób młodych, gdzie bruzdy zębów trzonowych lub przedtrzonowych nie zostały jeszcze zaatakowane przez próchnicę. Lak chroni bruzdy przed szkodliwym działaniem czynników zewnętrznych (np. cukrem). Powinniśmy uszczelniać zęby naszych maluchów jak najszybciej po wyrznięciu całej powierzchni żującej. Przed zabiegiem lakowania bardzo dokładnie oczyszczamy ząb piaskarką lub szczoteczką ze specjalną pastą. Oczyszczone i osuszone powierzchnie badamy laserem diagnostycznym, który wykrywa nawet bardzo wczesną próchnicę, niewidoczną „gołym okiem”. Zastosowanie tego urządzenia pozwala jednoznacznie zakwalifikować zęby do lakowania i wykryć początkową, niewidoczną demineralizację szkliwa, która jest przeciwwskazaniem do lakowania. Lakowanie to bezbolesna metoda zabezpieczania zębów mlecznych.
-
-        <p><strong>Ozonoterapia zębów</strong></p>
-        <p>Zęby mleczne różnią się od zębów stałych anatomią. Ich słaba mineralizacja sprawia, że rozwój próchnicy następuje błyskawicznie i w krótkim czasie może doprowadzić do zniszczenia całych koron zębowych. By temu zapobiec, stosujemy bezpieczny, krótki i w pełni bezbolesny zabieg: ozonowanie zębów. Ozon charakteryzuje się silnym działaniem bakteriobójczym. Usuwa nawet 99,9% bakterii, odpowiedzialnych za rozwój próchnicy – dzięki temu hamuję ją, pozwalając na zachowanie mleczaków do momentu pojawienia się uzębienia stałego. Zatrzymanie próchnicy w początkowym stadium eliminuje ryzyko powstania głębokich zmian, prowadzących do destrukcji zębów i ich usunięcia. To bardzo ważne, by proces formowania się zgryzu przebiegał prawidłowo. Przyczyną zmian próchnicotwórczych, powstających w zębach są przede wszystkim bakterie, zasiedlające jamę ustną. W korzystnych dla siebie warunkach (np. w bruzdach zębowych), bakterie metabolizują cukry zawarte w pokarmach. Produktem ubocznym tego procesu są kwasy, które niszczą szkliwo i zębinę – w przypadku mleczaków, błyskawicznie! Dlatego tak istotne jest wczesne rozpoznanie zmian próchnicowych. Przebieg ozonowania u Dzieci trwa zaledwie 20 sekund! To metoda w pełni akceptowana przez Małych Pacjentów. Podczas zabiegu, który jest całkowicie bezbolesny, nie stosujemy żadnych wierteł, nie „borujemy”. Na ząb ze zmianami próchnicowymi zakładamy kapturek, połączony z urządzeniem (ozonatorem), wytwarzającym leczniczy gaz. Po zabiegu stosujemy dodatkowo preparaty remineralizujące.</p>
-
-        <p><strong>Sedacja wziewna</strong></p>
-        <p>Za pomocą mieszaniny złożonej z N2O (zwanego także gazem rozweselającym) oraz tlenu. Zastosowanie wspomnianej mieszaniny gazów pozwala Pacjentowi na zrelaksowanie się w czasie zabiegu. Osoba nie odczuwa bólu w czasie zabiegu, Pacjent nie odczuwa też stresu. Mieszanina gazów podawana jest za pomocą maski nosowej (sprzedajemy maski wielokrotnego użytku).</p>
-
-        <p>Sedacja wziewna jest wskazana u osób, które odczuwają paniczny strach przed jakimkolwiek zabiegiem stomatologicznym, nawet w czasie zabiegów, które nie wiążą się z ryzykiem dużego bólu. Ponadto w czasie długotrwałych i mało przyjemnych zabiegów, zwłaszcza u Pacjentów z silnym odruchem wymiotnym sedacja pozwala na ograniczenie dyskomfortu, np. w czasie pobierania wycisków.</p>
-
-        <p>U starszych Dzieci oraz u osób dorosłych poleca się stosowanie tego typu sedacji w przypadkach, w których Pacjenci reagują silnym stresem na ukłucia igłą, stosowane np. w czasie znieczulenia miejscowego.</p>
-
-        <p><strong>Przeciwwskazania do stosowanie sedacji N2O/ O2 należą:</strong></p>
-
-        <ul>
-          <li>stan przeziębienia</li>
-          <li>katar</li>
-          <li>obecność przerośniętych migdałków gardłowych, które mogą powodować niedrożność górnego odcinka dróg oddechowych</li>
-          <li>13 pierwszych tygodni ciąży</li>
-          <li>schorzenia psychiczne</li>
-          <li>stwardnienie rozsiane, porfiria, miastenia gravis,</li>
-          <li>choroby układu oddechowego, takie jak rozstrzenie oskrzelowe, czy rozedma płuc, alkoholizm,</li>
-          <li>brak chęci współpracy ze strony Pacjenta.</li>
-        </ul>
+               Skontaktuj się
+          SPECJALISTA DR N. MED JANUSZ SYKUT
       </div>
     </div>
 
     <div class="services" @click="showService">
-    <h2>Protetyka <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></h2>
-    <div class="services-hide">
-      <h3>Serdecznie zapraszamy na bezpłatną konsultację protetytczną</h3>
-      <p>Przybliżamy zalety oraz opis rozwiązań protetycznych. Szczegóły zabiegów różniące się techniką lub użytym materiałem znajdziecie Państwo w dalszej części opracowania. Lekarz na pierwszej wizycie zaprezentuje wachlarz rozwiązań oraz dobierze odpowiednie do danego przypadku Pacjentki/ Pacjenta. Mając na uwadze Państwa komfort wszystkie opisane niżej zabiegi na zębach żywych są wykonywane w znieczuleniu miejscowym.</p>
-
-      <p><strong>Korony protetyczne</strong></p>
-      <p>Korona protetyczna, zwana potocznie „koronką”, jest idealnym rozwiązaniem dla osób, których zęby są bardzo zniszczone z powodu zaawansowanych zmian próchnicowych, wielu uzupełnień kompozytowych lub uszkodzeń mechanicznych. Korona jest formą nakładki odbudowującej zęba, aby dobrze ją osadzić należy oszlifować ząb, który stanowi dla niej podstawę. Koronę wykonujemy z trwałych materiałów, co sprawia, że ząb jest wzmocniony, a wyglądem nie odbiega od naturalnego zdrowego uzębienia.</p>
-      <p>Zaletą koron protetycznych wykonywanych w naszym gabinecie jest fakt, że Pacjentki/ Pacjenci błyskawicznie adaptują się do tego typu uzupełnienia protetycznego i szybko odczuwają taki sam komfort ich użytkowania jak w przypadku naturalnego uzębienia.</p>
-
-      <p>Zdrowy i piękny uśmiech uzyskasz przechodząc z nami tylko trzy kroki.</p>
-      <ul>
-        <li>  1. Krok pierwszy to przeprowadzenie badań diagnostycznych i ustalenie szczegółów leczenia</li>
-        <li>2. Krok drugi obejmuje oszlifowanie zęba, wykonanie wycisku i korony tymczasowej</li>
-        <li>3. Ostatki, trzeci krok to przymierzenie nowej korony i jej zacementowanie.</li>
-      </ul>
-
-      <p><strong>Mosty protetyczne</strong></p>
-      <p>Most protetyczny można zastosować tylko jeśli wokół miejsca ubytków znajdują się inne zęby potrzebne, by oprzeć na nich całą konstrukcję protetyczną. Most należy do grupy protez stałych, czyli uzupełnień, których Pacjent nie może zdejmować.</p>
-      <p>Zalety mostu protetyczny można pokrótce opisać w trzech punktach: – brak przemieszczania się zębów, – prawidłowy zgryz, – naturalny wygląd.</p>
-
-      <p><strong>Protezy</strong></p>
-      <p>W przypadku, gdy braki w uzębieniu są bardzo duże i nie ma możliwości wypełnienia ich mostem protetycznym konieczne jest zastosowanie protez ruchomych. Wykonujemy różne typy protez. Protezy na elementach retencyjnych: protezy na zasuwach, protezy na zatrzaskach, protezy na teleskopach oraz:</p>
-      <ul>
-        <li>1. Protezy osiadające – czyli uzupełnienia ruchome oparte na dziąsłach i utrzymujące się w jamie ustnej na specjalnych klamrach (drucikach). Rozwiązanie to nie jest najlepszą dostępną na rynku metodą rozwiązania problemu braków częściowych i bezzębia.</li>
-        <li>  2. Protezy szkieletowe –  w przeciwieństwie do protez osiadających, protezy szkieletowe nie są oparte tylko na dziąsłach, a co za tym idzie, ich używanie nie powoduje przenoszenia sił żucia przez błonę śluzową i kość tylko poprzez własne zęby i ozębną. Są przeznaczone tylko dla Pacjentek/ Pacjentów z częściowym brakiem w uzębieniu.</li>
-      </ul>
-
-      <p><strong>Szczegółowy wykaz usług protetycznych</strong></p>
-      <ul>
-        <li>Wkład koronowo-korzeniowy / składany</li>
-        <li>Wkład k-k z włókna szklanego</li>
-        <li>Korona lana metalowa</li>
-        <li>Korona lana metalowa z frezowaniem pod protezę szkieletową</li>
-        <li>Korona akrylanowa (tymczasowa)</li>
-        <li>Korona lana licowana kompozytem</li>
-        <li>Korona lana licowana porcelaną</li>
-        <li>Korona lana licowana porcelaną z frezowaniem pod protezę szkieletową</li>
-        <li>Korona lana licowana porcelaną na złocie</li>
-        <li>Korona lana licowana porcelaną na złocie galwanicznym</li>
-        <li>Zacementowanie korony / zdjęcie korony</li>
-        <li>Korona teleskopowa</li>
-        <li>Proteza całkowita górna</li>
-        <li>Proteza całkowita dolna</li>
-        <li>Proteza częściowa powyżej 7 zębów</li>
-        <li>Proteza częściowa 4-6 zębów</li>
-        <li>Mikroproteza 1-3 zębów</li>
-        <li>Proteza szkieletowa</li>
-        <li>Proteza nakładowa</li>
-        <li>Proteza nakładowa na bazie szkieletu</li>
-        <li>Podścielenie protezy</li>
-        <li>Naprawa protez</li>
-        <li>Modele diagnostyczne</li>
-        <li>Diagnostyczne nawoskowanie (za punkt)</li>
-        <li>Zasuwa/zatrzask</li>
-        <li>Korona teleskopowa</li>
-        <li>Odbudowa zęba do płaszczyzny zgryzu</li>
-        <li>Licówka kompozytowa</li>
-        <li>Licówka porcelanowa</li>
-        <li>Korona pełnoceramiczna (bez podbudowy – najwyższa estetyka): – w systemie Empress II, – porcelana skaleniowa, – w systemie Procera</li>
-        <li>Modele diagnostyczne</li>
-        <li>Diagnostyczne nawoskowanie (za punkt)</li>
-      </ul>
-    </div>
-    </div>
-
-    <div class="services" @click="showService">
-      <h2>Implantologia <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></h2>
+      <h2>Implanty Lublin – Implantologia <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></h2>
       <div class="services-hide">
-        <h3>Implanty</h3>
-        <p>Implanty Lublin – “Nowoczesna implantologia pozwala na osiągnięcie trwałego efektu estetycznego i na poprawę zaburzonej poprzez utratę zębów mechaniki narządu żucia. Zabieg, w czasie którego wstawiane są implanty wykonywany jest w znieczuleniu miejscowym. Może obejmować całość jamy ustnej, bądź pojedynczy ubytek. Wstawienie implantów jest kilkuetapowe. Podstawowym materiałem, z którego wykonywane są implanty stomatologiczne jest tytan (ze względu na swoją biokompatybilność – nie jest rozpoznawany przez organizm jako ciało obce). Ceny wstawienia implantów są bardzo atrakcyjne, szczególnie gdy bierzemy pod uwagę relację ceny leczenia do uzyskanych korzyści, z których główną jest znaczna poprawa jakości życia – zarówno od strony praktycznej jak i estetycznej”.</p>
+        Implanty – “Nowoczesna implantologia pozwala na osiągnięcie trwałego efektu estetycznego i na poprawę zaburzonej poprzez utratę zębów mechaniki narządu żucia. Zabieg, w czasie którego wstawiane są implanty wykonywany jest w znieczuleniu miejscowym. Może obejmować całość jamy ustnej, bądź pojedynczy ubytek. Wstawienie implantów jest kilkuetapowe. Podstawowym materiałem, z którego wykonywane są implanty stomatologiczne jest tytan (ze względu na swoją biokompatybilność – nie jest rozpoznawany przez organizm jako ciało obce). Ceny wstawienia implantów są bardzo atrakcyjne, szczególnie gdy bierzemy pod uwagę relację ceny leczenia do uzyskanych korzyści, z których główną jest znaczna poprawa jakości życia – zarówno od strony praktycznej jak i estetycznej”.
 
+        Czym są Mini Implanty?
+        “Mini implanty są to implanty o średnicy mniejszej niż 3 mm. Implanty te stanowią alternatywę dla konwencjonalnych implantów przy zaopatrywaniu bezzębnej żuchwy, wtedy kiedy zanikła kość części zębodołowej żuchwy uniemożliwia instalację implantów o większej średnicy. Jest to alternatywą dla zabiegów augumentacji oraz przeszczepów kości. Wskazaniem do zastosowania mini implantów jest całkowity brak zębów w żuchwie u pacjentów, u których niemożliwe jest wprowadzenie pełnowymiarowych implantów. Mini implanty maja swoich zwolenników ze względu na minimalną inwazyjność zabiegu i możliwość natychmiastowego obciążenia. Niektórzy autorzy podkreślają jednak krótki okres badań nad mini implantami i obserwacji długoterminowego wykorzystania. Określają konieczność dalszych obserwacji, które zweryfikują możliwość zastosowania mini implantów”.
+         
+        Czym jest Zatrzask?
+        “To rodzaj zamocowania protetycznego, przypominający powszechnie stosowane zapięcie w odzieży. Może być montowane w brakach międzyzębowych do pojedynczych zębów filarowych”.
+         
+        Implanty - spojrzenie bardziej naukowe
+        “Podobnie jak w przypadku naturalnych zębów, również zdrowe tkanki okalające implant posiadają szerokość biologiczną. Jest to mankiet z tkanki miękkiej, konieczny do stabilizacji przyzębia wokół wspartych na szczepach protez. Jeśli chodzi o wszczepy zębowe, zarówno gruby płaski, jak również girlandowaty tym biologiczny przyzębia posiadają swoje wady i zalety.
+        W przypadku cienkiego girlandowatego przyzębia międzyzębowa objętość tkanki kostnej jest większa – z powodu wąskich, stożkowatych korzeni. Jest to korzystne dla zapewnienia odpowiedniej odległości pomiędzy implantem a zębem oraz pomiędzy sąsiednimi implantami, czyli odpowiednio 1,5 i 3 mm. Jednak ze względu na cienkie i delikatne dziąsło nieumyślny uraz lub niewłaściwie złożony wszczep mogą doprowadzić do recesji dziąsła (odsłaniając sztyft filarowy implantu) lub powstania nieestetycznych “czarnych trójkątów”.
+        Natomiast gdy mamy do czynienia z grubym płaskim biotypem, korzenie są szersze i stożkowate, dlatego pozostawiają mniejszą przestrzeń pomiędzy sąsiednimi zębami lub planowanymi implantami. W tej sytuacji dobrym rozwiązaniem może się okazać zastosowanie węższych wszczepów z równoczesnym mezjalno-destalnym przeszczepem tkanki kostnej lub przeszczepem od strony policzkowej w celu skompresowania zredukowanej przestrzeni mezjalno-destalnej.
+        Zaletą grubego typu biologicznego przyzębia jest to, iż z powodu obszernego, włóknistego dziąsła niebezpieczeństwo powstania recesji jest znacznie mniej prawdopodobne niż w przypadku biotypu cienkiego girlandowatego.
+        Ponadto brzegi wszystkich rekonstrukcji umieszczonych zewnątrzkoronowo (na zębach naturalnych lub implantach) powinny naśladować kontur połączenia szkliwno-cementowego i brzegu kostnego wyrostka, z dokoronowanymi szczątkami w przestrzeniach międzyzębowych i dowierzchołkowymi szczytami na powierzchniach policzkowych, wargowych i językowych. Wprowadzenie implantów typu “scalloped” oraz implantów parabolicznych naśladujących naturalny kontur połączenia szkliwno-cementowego i brzegu wyrostka miało na celu zminimalizowanie utraty tkanki kostnej w przestrzeni międzyzębowej, co stosunkowo często występuje w wypadku stosowanie wszczepów konsencjonalnych o płaskich platformach łącznikowych. Wszczepienie opisanych powyżej nowoczesnych implantów daje możliwość utworzenia połączania implant-dziąsło – na wzór naturalnego połączenia zębowo-dziąsłowego”.
+        Dobieramy najbardziej odpowiedni kolor implantu
+        Skontaktuj się
 
-        <p><strong>Implanty Lublin / Przegląd</strong></p>
-        <p>“Zanim zdecydujemy się na tę rimplanty Lublin, Prestige Stomatologia, Przemek Kleinrok, Janusz Sykut - kobieta z implantemadykalną, ale trzeba przyznać – skuteczną – metodę generalnego remontu jamy ustnej, warto uświadomić sobie, że zęby tworzą spójny zespół. A jakiekolwiek braki w jego obrębie wywołują zaburzenia: zęby zaczynają się przesuwać lub wysuwać, aby spotkać inne, z którymi mogłyby się kontaktować, co źle wpływa na zgryz.</p>
-
-        <p>Zanim stomatolog zainstaluje implanty, najpierw musi ocenić stan jamy ustnej i ustalić plan działania. Przed podjęciem ostatecznej decyzji o założeniu wszczepów należy zrobić RTG lub tomografię komputerową całego uzębienia, wyleczyć pozostałe zęby (jeśli któryś jest w fatalnym stanie – usunąć go) i dziąsła. Zęby trzeba też dokładnie oczyścić z osadu (…)”.</p>
-
-
-        <p><strong>Implanty Lublin / Instalacja bez bólu</strong></p>
-        <p>“Tytanowy implant w kształcie gwintowanego od wewnątrz kołka zastępuje korzeń zęba. Wkłada się go w kość w miejscu, w którym był kiedyś naturalny ząb. Po zamocowaniu implantu tkanka kostna będzie wnikała do jego porowatej powierzchni i zrastała się z nim. To gwarancja, że tytanowa śruba będzie się dobrze trzymała.</p>
-        <p>Wszystko odbywa się w znieczuleniu miejscowym, takim samym jak zwykłe leczenie stomatologiczne. Zrastanie się tytanowej śruby z kością trwa zwykle ok. 3-4 miesięcy w kości żuchwy i ok. 6 miesięcy w szczęce. W tym czasie ważne jest, aby implant nie był poddawany urazom. Pacjent może nosić tymczasową protezę z tworzyw sztucznych, która zamaskuje brak zęba.</p>
-        <p>Kiedy implant już się zrośnie z kością, główkę kołka odkrywa się i wkręca się w nią specjalne łączniki, na których można potem zamocować koronę zęba albo most. W niektórych przypadkach, stosując implanty o odpowiedniej budowie, można czas oczekiwania skrócić do zera – założyć implanty zaraz po usunięciu zęba. Jednak zabiegi tego typu, zdaniem niektórych specjalistów mają mniejsze szanse powodzenia (…)”.</p>
+        SPECJALISTA DR N. MED JANUSZ SYKUT
       </div>
     </div>
 
@@ -166,10 +214,10 @@ export default {
   },
   methods: {
     showService(event) {
-      event.stopPropagation();
-      if(event.target.parentNode.nodeName === 'DIV') {
+      //event.stopPropagation();
+      //if(event.target.parentNode.nodeName === 'DIV' || event.target.parentNode.nodeName === 'H2') {
         event.target.parentNode.lastElementChild.classList.toggle('slide-bottom');
-      }
+      //}
 
     }
 
@@ -191,7 +239,11 @@ export default {
 }
 
 .services ul {
-  list-style: square;
+  list-style-type: circle;
+}
+
+.services li {
+  //display: block;
 }
 
 .services i {
@@ -201,6 +253,8 @@ export default {
 .services h2 {
   margin: 0;
   padding: 5px;
+  border-top: solid 1px #71d759;
+  border-bottom: solid 1px #71d759;
 }
 
 .services:nth-child(even) h2 {
