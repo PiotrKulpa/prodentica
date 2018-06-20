@@ -28,7 +28,7 @@
     </div>
 
     <div class="team">
-      <img src="./assets/images/domi-380x380.jpg">
+      <img src="http://via.placeholder.com/380x380">
       <h2>DR KATARZYNA RADEJ</h2>
       <h3>SPECJALNOŚĆ PEDODOCJA (STOMATOLOGIA  DZIECIĘCA, ZACHOWAWCZA)</h3>
       <p>
@@ -46,7 +46,7 @@
       </div>
     </div>
     <div class="team">
-      <img src="./assets/images/iza-zysko-380x380.jpg">
+      <img src="http://via.placeholder.com/380x380">
       <h2>DR PRZEMYSŁAW KOPEĆ</h2>
       <h3>SPECJALNOŚĆ ENDODONCJA</h3>
       <p>

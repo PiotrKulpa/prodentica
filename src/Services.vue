@@ -18,8 +18,8 @@
           <li>stosowanie płytek relaksacyjnych różnej grubości i twardości u pacjentów z obniżoną wysokością zwarcia i przy bruksizmie /”zgrzytanie zębów”/</li>
           <li>płytki przedsionkowe, płytki ochronne sportowe</li>
           <p><strong>Skontaktuj się</strong></p>
-          <p>SPECJALISTA DR KATARZYNA RADEJ,</p>
-          <p>DR PRZEMYSŁAW KOPEĆ</p>
+          <p><strong>SPECJALISTA DR KATARZYNA RADEJ</strong></p>
+          <p><strong>DR PRZEMYSŁAW KOPEĆ</strong></p>
         </ul>
       </div>
     </div>
@@ -47,15 +47,15 @@
       <div class="services-hide">
         <h3>Mali Pacjenci</h3>
         <p>„Częstym błędem popełnianym w lecznictwie dziecięcym jest traktowanie dziecka jako pacjenta, któremu można wykonać zabieg wbrew jego przyzwoleniu, znienacka czy „na siłę” w razie oporu czy pośpiechu. Powoduje to, że powstały w trakcie tak wykonanego zabiegu uraz oraz stres i utracone zaufanie będą naznaczały takiego pacjenta na całe jego dalsze życie.”</p>
-        <h3>Skontaktuj się</h3>
-        <p>SPECJALISTA DR  KATARZYNA RADEJ,</p>
+        <p><strong>Skontaktuj się</strong></p>
+        <p><strong>SPECJALISTA DR  KATARZYNA RADEJ</strong></p>
         <p>Wizyta dziecka w gabinecie stomatologicznym musi przebiegać w sposób pozwalający dziecku nabrać zaufania i przekonania, że nie stanie mu się krzywda w jego odczuciu. Stąd niewskazany jest pośpiech, a więc pierwsze wizyty, których może być kilka zanim dziecko uda się przekonać do zgody na badanie i dalsze leczenie, nie powinny wynikać z nagłej potrzeby interwencji związanej z dolegliwościami bólowymi, w przypadku których, niestety na odkładanie wizyty często nie można sobie pozwolić z uwagi na zaawansowanie problemu.</p>
         <p><strong>Uspokojenie podtlenkiem azotu</strong></p>
-        <p>Leczenie zaniepokojonych pacjentów jest również przyczyną stresu wśród lekarzy dentystów i personelu medycznego, czyniąc kwestię walki z lękiem kluczowym wyzwaniem we współczesnej stomatologii.</p>
-        <p>Sedacja wziewna z użyciem mieszaniny podtlenku azotu i tlenu jest jedną z najskuteczniejszych dostępnych metod uspokajania pacjentów w stomatologii i innych dziedzinach medycyny zabiegowej. Metoda ta jest powszechnie akceptowana i przyjmowana z entuzjazmem przez pacjentów obawiających się wizyt stomatologicznych. System sedacji wziewnej wyróżnia bezpieczeństwo, niezawodność oraz łatwość obsługi potrzebne do bezstresowego leczenia zarówno dla pacjenta, jak i lekarza.</p>
-        <p>Gaz rozweselający jest bardzo bezpieczny i nieszkodliwy szczególnie przydatny dla dzieci i dorosłych odczuwających silny lęk przed wizytą u dentysty i leczeniem. Jest stosowant w medycynie i stomatologii od dawna.</p>
-        <p>Zastosowanie gazu antystresowego wprowadza pacjenta w stan rozluźnienia i odprężenia, redukując nieprzyjemne odczucia związane z leczeniem. Dawkę podtlenku azotu dostosowuje się do poziomu stresu u pacjenta, co oznacza, że można pogłębiać bądź spłycać stan relaksacji. Cały czas utrzymywany jest kontakt z pacjentem, który przebywa w stanie przyjemnej euforii. U najmłodszych pacjentów dość często pojawiają się marzenia senne na jawie np. latanie samolotem, rakietą kosmiczną, taniec na balu, itp. Gaz rozweselający wdycha się za pomocą maseczki zakładanej na nos. Każdy pacjent ma swoją własną maseczkę.</p>
-        <p>Ponieważ podtlenek azotu wykazuje działanie zneczulające, małe zabiegi mogą odbyć się bez znieczulenia. Jednak w przypadku bardziej skomplikowanego leczenia nieczulenie miejscowe jest jak najbardziej możliwe.</p>
+        <i><p>Leczenie zaniepokojonych pacjentów jest również przyczyną stresu wśród lekarzy dentystów i personelu medycznego, czyniąc kwestię walki z lękiem kluczowym wyzwaniem we współczesnej stomatologii.</p>
+          <p>Sedacja wziewna z użyciem mieszaniny podtlenku azotu i tlenu jest jedną z najskuteczniejszych dostępnych metod uspokajania pacjentów w stomatologii i innych dziedzinach medycyny zabiegowej. Metoda ta jest powszechnie akceptowana i przyjmowana z entuzjazmem przez pacjentów obawiających się wizyt stomatologicznych. System sedacji wziewnej wyróżnia bezpieczeństwo, niezawodność oraz łatwość obsługi potrzebne do bezstresowego leczenia zarówno dla pacjenta, jak i lekarza.</p></i>
+          <p>Gaz rozweselający jest bardzo bezpieczny i nieszkodliwy szczególnie przydatny dla dzieci i dorosłych odczuwających silny lęk przed wizytą u dentysty i leczeniem. Jest stosowant w medycynie i stomatologii od dawna.</p>
+          <p>Zastosowanie gazu antystresowego wprowadza pacjenta w stan rozluźnienia i odprężenia, redukując nieprzyjemne odczucia związane z leczeniem. Dawkę podtlenku azotu dostosowuje się do poziomu stresu u pacjenta, co oznacza, że można pogłębiać bądź spłycać stan relaksacji. Cały czas utrzymywany jest kontakt z pacjentem, który przebywa w stanie przyjemnej euforii. U najmłodszych pacjentów dość często pojawiają się marzenia senne na jawie np. latanie samolotem, rakietą kosmiczną, taniec na balu, itp. Gaz rozweselający wdycha się za pomocą maseczki zakładanej na nos. Każdy pacjent ma swoją własną maseczkę.</p>
+          <p>Ponieważ podtlenek azotu wykazuje działanie zneczulające, małe zabiegi mogą odbyć się bez znieczulenia. Jednak w przypadku bardziej skomplikowanego leczenia nieczulenie miejscowe jest jak najbardziej możliwe.</p>
          
         <p><strong>Kiedy podanie gazu rozweselającego daje najlepsze rezultaty</strong></p>
 
@@ -79,7 +79,7 @@
           <li>wg piśmiennictwa po 30 minutach od zakończenia podawanego gazu można prowadzić pojazdy mechaniczne, jednak ze względu na bezpieczeństwo zalecamy naszym pacjentom, aby w dniu wykonania sedacji nie prowadzili pojazdów mechanicznych</li>
         </ul>
 
-        <ul>
+        <ul class="dashed">
            <li>wizyty adaptacyjne</li>
            <li>leczenie próchnicy zębów mlecznych i stałych stałych (wypełnienia kompozytowe kolorowe, białe, wypełnienia glassjonomerowe)</li>
            <li>lakowanie zębów(laki mogą być białe, kolorowe, uwalniające fluor)</li>
@@ -203,16 +203,16 @@
         <p>
           Implanty – “Nowoczesna implantologia pozwala na osiągnięcie trwałego efektu estetycznego i na poprawę zaburzonej poprzez utratę zębów mechaniki narządu żucia. Zabieg, w czasie którego wstawiane są implanty wykonywany jest w znieczuleniu miejscowym. Może obejmować całość jamy ustnej, bądź pojedynczy ubytek. Wstawienie implantów jest kilkuetapowe. Podstawowym materiałem, z którego wykonywane są implanty stomatologiczne jest tytan (ze względu na swoją biokompatybilność – nie jest rozpoznawany przez organizm jako ciało obce). Ceny wstawienia implantów są bardzo atrakcyjne, szczególnie gdy bierzemy pod uwagę relację ceny leczenia do uzyskanych korzyści, z których główną jest znaczna poprawa jakości życia – zarówno od strony praktycznej jak i estetycznej”.
         </p>
-        <p>Czym są Mini Implanty?</p>
+        <p><strong>Czym są Mini Implanty?</strong></p>
         <p>
           “Mini implanty są to implanty o średnicy mniejszej niż 3 mm. Implanty te stanowią alternatywę dla konwencjonalnych implantów przy zaopatrywaniu bezzębnej żuchwy, wtedy kiedy zanikła kość części zębodołowej żuchwy uniemożliwia instalację implantów o większej średnicy. Jest to alternatywą dla zabiegów augumentacji oraz przeszczepów kości. Wskazaniem do zastosowania mini implantów jest całkowity brak zębów w żuchwie u pacjentów, u których niemożliwe jest wprowadzenie pełnowymiarowych implantów. Mini implanty maja swoich zwolenników ze względu na minimalną inwazyjność zabiegu i możliwość natychmiastowego obciążenia. Niektórzy autorzy podkreślają jednak krótki okres badań nad mini implantami i obserwacji długoterminowego wykorzystania. Określają konieczność dalszych obserwacji, które zweryfikują możliwość zastosowania mini implantów”.
         </p>
-        <p>Czym jest Zatrzask?</p>
+        <p><strong>Czym jest Zatrzask?</strong></p>
         <p>
           “To rodzaj zamocowania protetycznego, przypominający powszechnie stosowane zapięcie w odzieży. Może być montowane w brakach międzyzębowych do pojedynczych zębów filarowych”.
         </p>
         <p>
-          Implanty  spojrzenie bardziej naukowe
+          <strong>Implanty  spojrzenie bardziej naukowe</strong>
         </p>
         <p>
           “Podobnie jak w przypadku naturalnych zębów, również zdrowe tkanki okalające implant posiadają szerokość biologiczną. Jest to mankiet z tkanki miękkiej, konieczny do stabilizacji przyzębia wokół wspartych na szczepach protez. Jeśli chodzi o wszczepy zębowe, zarówno gruby płaski, jak również girlandowaty tym biologiczny przyzębia posiadają swoje wady i zalety.
@@ -251,7 +251,7 @@ export default {
       event.stopPropagation();
       if(event.target.parentNode.nodeName === 'DIV') {
         event.target.parentNode.lastElementChild.classList.toggle('slide-bottom');
-      } else if (event.target.parentNode.nodeName === 'H2') {  
+      } else if (event.target.parentNode.nodeName === 'H2') {
         event.target.parentNode.parentNode.lastElementChild.classList.toggle('slide-bottom');
       }
 
@@ -337,6 +337,21 @@ export default {
     -webkit-transform: translateY(10px);
             transform: translateY(10px);
   }
+}
+
+ul.dashed {
+    list-style: none;
+    //padding-left: 0;
+}
+
+ul.dashed > li {
+    margin: 0 10px;
+}
+
+/* Prevent nested li's from getting messed up */
+ul.dashed > li::before {
+    content: "- ";
+    margin-left: 0;
 }
 
 
