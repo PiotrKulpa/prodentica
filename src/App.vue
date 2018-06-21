@@ -159,10 +159,10 @@ h1, h2 {
   font-size: 1.5em;
 }
 
-
 header {
   height: 150px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   text-align: center;
   color: #8b8b8b;
@@ -206,7 +206,6 @@ nav {
   height: 300px;
   padding: 15px;
   margin: 2px;
-
 }
 
 
@@ -281,5 +280,98 @@ footer {
 
 .copyright {
   text-align: right;
+}
+
+@media screen and (max-width: 699px) {
+  main {
+    width: 100%;
+    margin: auto;
+  }
+
+  .header-image, .header-logo {
+    width: 50%;
+    height: 70%;
+  }
+
+  .header-logo {
+    text-align: right;
+  }
+
+  .header-logo h1, .header-logo h3{
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: right;
+  }
+
+  .header-contact {
+    width: 100% !important;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .header-contact p {
+    display: inline-block;
+    padding-right: 5px;
+  }
+
+  nav {
+    width: 100%;
+    display: block;
+  }
+  .nav-home {
+    display: block;
+    width: 100%;
+    height: 25px;
+    padding: 15px;
+    margin: 2px;
+  }
+
+  .nav-links-block {
+    display: block;
+    width: 100%;
+  }
+
+  .nav-links-block a {
+    display: block;
+    width: 100%;
+    height: 25px;
+  }
+
+  .nav-link {
+    display: block;
+    width: 100%;
+    height: 25px;
+  }
+
+  .active {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 999px) {
+  main {
+    width: 700px;
+    margin: auto;
+  }
+
+  .nav-home {
+    width: 250px;
+    height: 222px;
+    padding: 15px;
+    margin: 2px;
+  }
+
+  .nav-link {
+    width: 109px;
+    height: 109px;
+  }
+
+  .active {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
 }
 </style>
