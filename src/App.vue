@@ -28,7 +28,13 @@
 
     </header>
 
+    <div class="bars">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+
     <nav>
+
+
 
       <div class="nav-home-block">
         <router-link to="/" exact active-class="active"><div class="nav-home radial-gradient">Home</div></router-link>
@@ -196,6 +202,10 @@ nav {
   display: flex;
 }
 
+.bars {
+  display: none;
+}
+
 .nav-links-block {
   display: flex;
   flex-wrap: wrap;
@@ -299,7 +309,7 @@ footer {
 
   .header-logo h1, .header-logo h3{
     margin: 0 !important;
-    padding: 0 !important;
+    padding: 5px !important;
     text-align: right;
   }
 
@@ -315,13 +325,23 @@ footer {
   }
 
   nav {
-    width: 100%;
+    width: 250px;
     display: block;
+    position: fixed;
+    z-index: 99;
   }
+
+  .bars {
+    text-align: right;
+    display: block;
+    font-size: 2em;
+    cursor: pointer;
+  }
+
   .nav-home {
     display: block;
     width: 100%;
-    height: 25px;
+    height: 35px;
     padding: 15px;
     margin: 2px;
   }
@@ -334,18 +354,45 @@ footer {
   .nav-links-block a {
     display: block;
     width: 100%;
-    height: 25px;
+    height: 35px;
   }
 
   .nav-link {
     display: block;
     width: 100%;
-    height: 25px;
+    height: 35px;
+    background-image: radial-gradient(
+      #00c23a 0%, #009f30 100%);
+      color: white;
   }
 
   .active {
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1em;
+  }
+
+  .radial-gradient {
+    background-image: radial-gradient(
+        #00c23a 0%, #009f30 100%);
+    color: white;
+  }
+
+  .radial-gradient-grey {
+    background-image: radial-gradient(
+      #00c23a 0%, #009f30 100%);
+    color: white;
+  }
+
+  .radial-gradient:hover {
+    transition: color 0.5s, transform 0.2s;
+    color: #71d759;
+    transform: scale(1);
+  }
+
+  .nav-link:hover {
+    transition: transform 0.2s;
+    transform: scale(1);
+    color: #71d759;
   }
 
 }
