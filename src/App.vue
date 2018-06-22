@@ -28,21 +28,21 @@
 
     </header>
 
-    <div class="bars">
+    <div class="bars"  @click="toggleNav()">
       <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
 
-    <nav>
+    <nav v-bind:class="{'nav-close': navState, 'nav-open': !navState}">
 
 
 
-      <div class="nav-home-block">
-        <router-link to="/" exact active-class="active"><div class="nav-home radial-gradient">Home</div></router-link>
+      <div class="nav-home-block" @click="toggleNav()">
+        <router-link to="/" exact active-class="active" @click="toggleNav()"><div class="nav-home radial-gradient">Home</div></router-link>
       </div>
 
 
-      <div class="nav-links-block">
-        <router-link  to="/onas" active-class="active"><div class="nav-link">O nas</div></router-link>
+      <div class="nav-links-block" @click="toggleNav()">
+        <router-link  to="/onas" active-class="active" ><div class="nav-link">O nas</div></router-link>
 
         <router-link to="/uslugi" active-class="active"><div class="nav-link radial-gradient">Usługi</div></router-link>
 
@@ -95,7 +95,8 @@ export default {
   data () {
     return {
       msg: 'Welcome to Your Vue.js App',
-      year: this.getYear()
+      year: this.getYear(),
+      navState: true
 
     }
   },
@@ -104,6 +105,9 @@ export default {
       let d = new Date();
       let y = d.getFullYear();
       return y;
+    },
+    toggleNav() {
+       this.navState = !this.navState;
     }
   }
 }
@@ -296,6 +300,7 @@ footer {
   main {
     width: 100%;
     margin: auto;
+    padding: 0 5px;
   }
 
   .header-image, .header-logo {
@@ -325,7 +330,7 @@ footer {
   }
 
   nav {
-    width: 250px;
+    width: 300px;
     display: block;
     position: fixed;
     z-index: 99;
@@ -336,6 +341,23 @@ footer {
     display: block;
     font-size: 2em;
     cursor: pointer;
+    margin-right: 5px;
+  }
+
+  .nav-close {
+    /* This trasform moves the drawer off canvas. */
+    -webkit-transform: translate(-310px, 0);
+    transform: translate(-310px, 0);
+    /* Optionally, we animate the drawer. */
+    transition: transform 0.3s ease;
+  }
+
+  .nav-open {
+    /* This trasform moves the drawer on canvas. */
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    /* Optionally, we animate the drawer. */
+    transition: transform 0.3s ease;
   }
 
   .nav-home {
