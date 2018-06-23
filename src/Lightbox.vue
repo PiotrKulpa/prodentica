@@ -6,7 +6,7 @@
 
       </div>
     </div>
-    
+
     <img class="darkbox" src="./assets/images/placeholder.jpg" alt="asa">
     <img class="darkbox" src="./assets/images/placeholder2.jpg" alt="asa">
     <img class="darkbox" src="./assets/images/placeholder3.jpg" alt="asa">
@@ -34,7 +34,7 @@ export default {
       let darkbox = document.querySelector('.darkbox-box');
       let imgContainer = document.querySelector('.img-container');
       this.$refs.db.style.display = 'block';
-      imgContainer.style.width = `${this.imgSize}px`;
+      //imgContainer.style.width = `${this.imgSize}px`;
       imgContainer.classList.add('fade-in');
 
     },
@@ -45,7 +45,7 @@ export default {
     getImages() {
       let imgs = document.querySelectorAll('.darkbox');
       imgs.forEach((el) => {
-        el.width = this.thumbSize;
+        //el.width = this.thumbSize;
         el.addEventListener('click', (e) => {
           //open darbox
         this.openDarkbox();
@@ -74,11 +74,17 @@ export default {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 900px;
+}
+
+.darkbox-container img {
+  width: 33%;
 }
 
 .img-container img {
   border: 15px solid black;
   cursor: pointer;
+  width: 33%;
 }
 
 .darkbox-box {
@@ -89,7 +95,7 @@ export default {
   background-color: rgba(255, 255, 255, 0.7);
   width: 100vw;
   height: 100vh;
-  z-index: 99;
+  z-index: 100;
 }
 
 .darkbox-box i {
@@ -129,7 +135,22 @@ export default {
   }
 }
 
+@media screen and (max-width: 699px) {
+  .darkbox-container img {
+    width: 100%;
+  }
+  .img-container, .img-container img {
+    width: 100%;
+  }
 
+}
+
+@media screen and (min-width: 700px) and (max-width: 999px) {
+  .darkbox-container img {
+    width: 40%;
+  }
+
+}
 
 
 </style>

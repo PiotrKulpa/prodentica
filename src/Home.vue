@@ -61,5 +61,18 @@ h1 {
   width: 100%;
 }
 
+@media screen and (max-width: 699px) {
+  .home {
+    width: 100%;
+    padding: 0;
+  }
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 999px) {
+
+
+}
+
 
 </style>

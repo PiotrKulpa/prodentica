@@ -57,4 +57,17 @@ export default {
 .sidebar img {
   width: 100%;
 }
+
+@media screen and (max-width: 699px) {
+  .aboutus, .sidebar {
+    width: 100%;
+    padding: 5px;
+  }
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 999px) {
+
+
+}
 </style>
