@@ -296,7 +296,7 @@ footer {
   text-align: right;
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 599px) {
   main {
     width: 100%;
     margin: auto;
@@ -363,7 +363,7 @@ footer {
   .nav-home {
     display: block;
     width: 100%;
-    height: 35px;
+    height: 45px;
     padding: 15px;
     margin: 2px;
   }
@@ -376,13 +376,13 @@ footer {
   .nav-links-block a {
     display: block;
     width: 100%;
-    height: 35px;
+    height: 45px;
   }
 
   .nav-link {
     display: block;
     width: 100%;
-    height: 35px;
+    height: 45px;
     background-image: radial-gradient(
       #00c23a 0%, #009f30 100%);
       color: white;
@@ -417,11 +417,15 @@ footer {
     color: #71d759;
   }
 
+  .footer-menu {
+    font-size: 0.7em;
+  }
+
 }
 
-@media screen and (min-width: 700px) and (max-width: 999px) {
+@media screen and (min-width: 600px) and (max-width: 999px) {
   main {
-    width: 700px;
+    width: 600px;
     margin: auto;
   }
 

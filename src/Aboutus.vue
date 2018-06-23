@@ -58,7 +58,7 @@ export default {
   width: 100%;
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 599px) {
   .aboutus, .sidebar {
     width: 100%;
     padding: 5px;
@@ -66,7 +66,7 @@ export default {
 
 }
 
-@media screen and (min-width: 700px) and (max-width: 999px) {
+@media screen and (min-width: 600px) and (max-width: 999px) {
 
 
 }

@@ -135,19 +135,24 @@ export default {
   }
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 599px) {
   .darkbox-container img {
     width: 100%;
   }
   .img-container, .img-container img {
-    width: 100%;
+    width: 90%;
   }
 
 }
 
-@media screen and (min-width: 700px) and (max-width: 999px) {
+@media screen and (min-width: 600px) and (max-width: 999px) {
+
   .darkbox-container img {
-    width: 40%;
+    width: 49.5%;
+  }
+
+  .img-container, .img-container img {
+    width: 90%;
   }
 
 }

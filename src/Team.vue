@@ -102,5 +102,16 @@ export default {
   cursor: pointer;
 }
 
+@media screen and (max-width: 599px) {
 
+  .team {
+    width: 100%;
+  }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 999px) {
+
+
+}
 </style>
