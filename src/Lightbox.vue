@@ -6,16 +6,34 @@
 
       </div>
     </div>
+    <img class="darkbox" :src="'/static/images/thumbs/galeria01.jpg'" alt="prodentica gabinet">
+    <img class="darkbox" :src="'/static/images/thumbs/galeria02.jpg'" alt="prodentica gabinet">
+    <img class="darkbox" :src="'/static/images/thumbs/galeria03.jpg'" alt="prodentica gabinet">
+    <img class="darkbox" :src="'/static/images/thumbs/galeria04.jpg'" alt="prodentica gabinet">
+    <img class="darkbox" :src="'/static/images/thumbs/galeria05.jpg'" alt="prodentica gabinet">
+    <img class="darkbox" :src="'/static/images/thumbs/galeria06.jpg'" alt="prodentica gabinet">
+    <img class="darkbox" :src="'/static/images/thumbs/galeria07.jpg'" alt="prodentica gabinet">
+    <img class="darkbox" :src="'/static/images/thumbs/galeria08.jpg'" alt="prodentica gabinet">
+    <img class="darkbox" :src="'/static/images/thumbs/galeria010.jpg'" alt="prodentica gabinet">
+    <img class="darkbox" :src="'/static/images/thumbs/galeria011.jpg'" alt="prodentica gabinet">
+    <img class="darkbox" :src="'/static/images/thumbs/galeria012.jpg'" alt="prodentica gabinet">
+    <img class="darkbox" :src="'/static/images/thumbs/galeria013.jpg'" alt="prodentica gabinet">
+    <img class="darkbox" :src="'/static/images/thumbs/galeria014.jpg'" alt="prodentica gabinet">
+    <img class="darkbox" :src="'/static/images/thumbs/galeria015.jpg'" alt="prodentica gabinet">
+    <img class="darkbox" :src="'/static/images/thumbs/galeria016.jpg'" alt="prodentica gabinet">
+    <img class="darkbox" :src="'/static/images/thumbs/galeria017.jpg'" alt="prodentica gabinet">
+    <img class="darkbox" :src="'/static/images/thumbs/galeria018.jpg'" alt="prodentica gabinet">
+    <img class="darkbox" :src="'/static/images/thumbs/galeria019.jpg'" alt="prodentica gabinet">
+    <img class="darkbox" :src="'/static/images/thumbs/galeria020.jpg'" alt="prodentica gabinet">
+    <img class="darkbox" :src="'/static/images/thumbs/galeria021.jpg'" alt="prodentica gabinet">
+    <img class="darkbox" :src="'/static/images/thumbs/galeria022.jpg'" alt="prodentica gabinet">
+    <img class="darkbox" :src="'/static/images/thumbs/galeria024.jpg'" alt="prodentica gabinet">
+    <img class="darkbox" :src="'/static/images/thumbs/galeria025.jpg'" alt="prodentica gabinet">
+    <img class="darkbox" :src="'/static/images/thumbs/galeria026.jpg'" alt="prodentica gabinet">
+    <img class="darkbox" :src="'/static/images/thumbs/galeria027.jpg'" alt="prodentica gabinet">
+    <img class="darkbox" :src="'/static/images/thumbs/galeria028.jpg'" alt="prodentica gabinet">
 
-    <img class="darkbox" src="./assets/images/placeholder.jpg" alt="asa">
-    <img class="darkbox" src="./assets/images/placeholder2.jpg" alt="asa">
-    <img class="darkbox" src="./assets/images/placeholder3.jpg" alt="asa">
-    <img class="darkbox" src="./assets/images/placeholder4.jpg" alt="asa">
-    <img class="darkbox" src="./assets/images/placeholder5.jpg" alt="asa">
-    <img class="darkbox" src="./assets/images/placeholder6.jpg" alt="asa">
-    <img class="darkbox" src="./assets/images/placeholder7.jpg" alt="asa">
-    <img class="darkbox" src="./assets/images/placeholder8.jpg" alt="asa">
-    <img class="darkbox" src="./assets/images/placeholder9.jpg" alt="asa">
+
 
   </div>
 </template>
@@ -27,6 +45,9 @@ export default {
     return {
       thumbSize: 330,
       imgSize: 900,
+      images: {
+        one: 'galeria01.jpg'
+      }
     }
   },
   methods: {
@@ -50,8 +71,13 @@ export default {
           //open darbox
         this.openDarkbox();
         let sourceImage = document.createElement('img');
-        sourceImage.src = e.target.src;
-        sourceImage.style.width = '100%';
+        // sourceImage.src = e.target.src;
+        let filename = e.target.src.replace(/^.*[\\\/]/, '');
+        // let filename2 = filename.replace(/.jpg/, '-big.jpg');
+        console.log(filename);
+        sourceImage.src = '/static/images/' + filename;
+
+        sourceImage.style.width = '600px';
         this.$refs.ic.appendChild(sourceImage);
         });
       });

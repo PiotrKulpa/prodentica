@@ -4,7 +4,7 @@
 
 
     <div class="team">
-      <img src="./assets/images/janusz-380x380.jpg">
+      <img src="./assets/images/zespol-sykut600x600.jpg">
       <h2>DR N. MED JANUSZ SYKUT</h2>
       <h3>SPECJALNOŚĆ  PROTETYKA, CHIRURGIA, IMPLANTOLOGIA</h3>
       <p>
@@ -28,7 +28,7 @@
     </div>
 
     <div class="team">
-      <img src="http://via.placeholder.com/380x380">
+      <img src="./assets/images/zespol-radej600x600.jpg">
       <h2>DR KATARZYNA RADEJ</h2>
       <h3>SPECJALNOŚĆ PEDODOCJA (STOMATOLOGIA  DZIECIĘCA, ZACHOWAWCZA)</h3>
       <p>
@@ -46,7 +46,7 @@
       </div>
     </div>
     <div class="team">
-      <img src="http://via.placeholder.com/380x380">
+      <img src="./assets/images/zespol-kopec600x600.jpg">
       <h2>DR PRZEMYSŁAW KOPEĆ</h2>
       <h3>SPECJALNOŚĆ ENDODONCJA</h3>
       <p>

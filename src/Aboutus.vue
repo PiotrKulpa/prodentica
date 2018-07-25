@@ -18,7 +18,7 @@
     </div>
 
     <div class="sidebar">
-      <img src="./assets/images/microscpe-500x300.jpg">
+      <img src="./assets/images/onas600x400.jpg">
     </div>
 
   </div>
