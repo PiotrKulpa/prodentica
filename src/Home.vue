@@ -19,7 +19,7 @@
 
     </div>
     <div class="home">
-      <h2>Doświadczenie</h2>
+      <router-link to="/certyfikaty" active-class="active"><h2>Doświadczenie</h2></router-link>
       <img src="./assets/images/home-gabinet600x400.jpg">
       <p>
         Każdy z nas przyjmuje Pacjentów od ponad dekady, asystentki medyczne mają równie bogate doświadczenie. Udane zabiegi możemy liczyć w dziesiątkach tysięcy.

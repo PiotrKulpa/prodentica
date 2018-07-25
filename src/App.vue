@@ -52,6 +52,10 @@
 
         <router-link to="/zespol" active-class="active"><div class="nav-link radial-gradient">Nasz zespół</div></router-link>
 
+        <router-link to="/publikacje" active-class="active"><div class="nav-link">Nasze publikacje</div></router-link>
+
+        <router-link to="/sprzet" active-class="active"><div class="nav-link radial-gradient">Czym pracujemy</div></router-link>
+
         <router-link to="/kontakt" active-class="active"><div class="nav-link">Kontakt</div></router-link>
       </div>
 

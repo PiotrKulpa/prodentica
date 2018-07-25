@@ -101,6 +101,7 @@ export default {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 900px;
+  text-align: center;
 }
 
 .darkbox-container img {

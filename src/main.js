@@ -7,6 +7,9 @@ import Gallery from './Gallery.vue'
 import Team from './Team.vue'
 import Contact from './Contact.vue'
 import Services from './Services.vue'
+import Publications from './Publications.vue'
+import Equipment from './Equipment.vue'
+import Certifications from './Certifications.vue'
 import VueRouter from 'vue-router'
 import FA from 'font-awesome/css/font-awesome.css'
 
@@ -19,7 +22,10 @@ const routes = [
   {path: '/przypadki', component: Cases},
   {path: '/galeria', component: Gallery},
   {path: '/zespol', component: Team},
-  {path: '/kontakt', component: Contact},
+  {path: '/publikacje', component: Publications},
+  {path: '/sprzet', component: Equipment},
+  {path: '/certyfikaty', component: Certifications},
+  {path: '/kontakt', component: Contact}
 ];
 
 const router = new VueRouter({
