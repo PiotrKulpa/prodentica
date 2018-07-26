@@ -2,6 +2,46 @@
   <div id="aboutus">
     <h1>Certyfikaty</h1>
 
+    <a href="/static/certs/miniaturka.pdf" download>
+      <img class="darkbox" :src="'/static/certs/001.jpg'" alt="prodentica gabinet">
+    </a>
+    <a href="/static/certs/rekonstrukcja.pdf" download>
+      <img class="darkbox" :src="'/static/certs/002.jpg'" alt="prodentica gabinet">
+    </a>
+    <a href="/static/certs/rekonstrukcja.pdf" download>
+      <img class="darkbox" :src="'/static/certs/003.jpg'" alt="prodentica gabinet">
+    </a>
+    <a href="/static/certs/rekonstrukcja.pdf" download>
+      <img class="darkbox" :src="'/static/certs/004.jpg'" alt="prodentica gabinet">
+    </a>
+    <a href="/static/certs/rekonstrukcja.pdf" download>
+      <img class="darkbox" :src="'/static/certs/005.jpg'" alt="prodentica gabinet">
+    </a>
+    <a href="/static/certs/rekonstrukcja.pdf" download>
+      <img class="darkbox" :src="'/static/certs/006.jpg'" alt="prodentica gabinet">
+    </a>
+    <a href="/static/certs/rekonstrukcja.pdf" download>
+      <img class="darkbox" :src="'/static/certs/007.jpg'" alt="prodentica gabinet">
+    </a>
+    <a href="/static/certs/rekonstrukcja.pdf" download>
+      <img class="darkbox" :src="'/static/certs/008.jpg'" alt="prodentica gabinet">
+    </a>
+    <a href="/static/certs/rekonstrukcja.pdf" download>
+      <img class="darkbox" :src="'/static/certs/009.jpg'" alt="prodentica gabinet">
+    </a>
+    <a href="/static/certs/rekonstrukcja.pdf" download>
+      <img class="darkbox" :src="'/static/certs/010.jpg'" alt="prodentica gabinet">
+    </a>
+    <a href="/static/certs/rekonstrukcja.pdf" download>
+      <img class="darkbox" :src="'/static/certs/011.jpg'" alt="prodentica gabinet">
+    </a>
+    <a href="/static/certs/rekonstrukcja.pdf" download>
+      <img class="darkbox" :src="'/static/certs/012.jpg'" alt="prodentica gabinet">
+    </a>
+  
+
+
+
 
 
   </div>

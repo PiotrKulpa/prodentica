@@ -1,3 +1,8 @@
+//TODO zmien rozmiar menu w stopce dla mobile
+//TODO ligtbox uniwersalny
+//TODO home slidery
+//TODO dodaj certfikaty
+
 import Vue from 'vue'
 import App from './App.vue'
 import Home from './Home.vue'

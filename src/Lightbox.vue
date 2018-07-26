@@ -74,9 +74,9 @@ export default {
         // sourceImage.src = e.target.src;
         let filename = e.target.src.replace(/^.*[\\\/]/, '');
         // let filename2 = filename.replace(/.jpg/, '-big.jpg');
-        console.log(filename);
+        //console.log(filename);
         sourceImage.src = '/static/images/' + filename;
-
+console.log(sourceImage.width);
         sourceImage.style.width = '600px';
         this.$refs.ic.appendChild(sourceImage);
         });
