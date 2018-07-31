@@ -1,49 +1,12 @@
 <template>
-  <div id="aboutus">
+  <div id="cerifications">
     <h1>Certyfikaty</h1>
-
-    <a href="/static/certs/miniaturka.pdf" download>
-      <img class="darkbox" :src="'/static/certs/001.jpg'" alt="prodentica gabinet">
-    </a>
-    <a href="/static/certs/rekonstrukcja.pdf" download>
-      <img class="darkbox" :src="'/static/certs/002.jpg'" alt="prodentica gabinet">
-    </a>
-    <a href="/static/certs/rekonstrukcja.pdf" download>
-      <img class="darkbox" :src="'/static/certs/003.jpg'" alt="prodentica gabinet">
-    </a>
-    <a href="/static/certs/rekonstrukcja.pdf" download>
-      <img class="darkbox" :src="'/static/certs/004.jpg'" alt="prodentica gabinet">
-    </a>
-    <a href="/static/certs/rekonstrukcja.pdf" download>
-      <img class="darkbox" :src="'/static/certs/005.jpg'" alt="prodentica gabinet">
-    </a>
-    <a href="/static/certs/rekonstrukcja.pdf" download>
-      <img class="darkbox" :src="'/static/certs/006.jpg'" alt="prodentica gabinet">
-    </a>
-    <a href="/static/certs/rekonstrukcja.pdf" download>
-      <img class="darkbox" :src="'/static/certs/007.jpg'" alt="prodentica gabinet">
-    </a>
-    <a href="/static/certs/rekonstrukcja.pdf" download>
-      <img class="darkbox" :src="'/static/certs/008.jpg'" alt="prodentica gabinet">
-    </a>
-    <a href="/static/certs/rekonstrukcja.pdf" download>
-      <img class="darkbox" :src="'/static/certs/009.jpg'" alt="prodentica gabinet">
-    </a>
-    <a href="/static/certs/rekonstrukcja.pdf" download>
-      <img class="darkbox" :src="'/static/certs/010.jpg'" alt="prodentica gabinet">
-    </a>
-    <a href="/static/certs/rekonstrukcja.pdf" download>
-      <img class="darkbox" :src="'/static/certs/011.jpg'" alt="prodentica gabinet">
-    </a>
-    <a href="/static/certs/rekonstrukcja.pdf" download>
-      <img class="darkbox" :src="'/static/certs/012.jpg'" alt="prodentica gabinet">
-    </a>
-  
-
-
-
-
-
+    <div v-for="el of certs">
+      <a :href="`/static/certs/${el}.pdf`" download>
+        <img class="cert-thumb" :src="`/static/certs/${el}.jpg`" alt="prodentica gabinet">
+        <i class="fa fa-download" aria-hidden="true"></i>
+      </a>
+    </div>
   </div>
 </template>
 
@@ -52,34 +15,61 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Vue.js App',
+      certs: []
     }
+  },
+  created() {
+    for (var i = 1; i <= 70; i++) {
+      this.certs.push(i);
+    }
+    console.log(this.certs);
   }
 }
 </script>
 
 <style>
-#aboutus {
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
+#cerifications a i {
+    position: absolute;
+    display: block;
+    left: 5px;
+    bottom: 8px;
+    color: #71d759;
+    text-align: center;
+    font-size: 1.2em;
+  }
+
+#cerifications {
   display: flex;
   flex-wrap: wrap;
 }
 
-#aboutus h1 {
-  width: 100%;
-}
-.aboutus {
-  width: 60%;
-  padding: 5px;
+#cerifications a {
+  margin: 5px;
+  position: relative;
+  text-align: center;
 }
 
-.sidebar {
-  width: 40%;
-  padding: 5px;
-}
-
-.sidebar img {
+#cerifications h1 {
   width: 100%;
 }
+
+.cert-thumb {
+  border: 2px solid #71d759;
+  width: 190px;
+}
+
 
 @media screen and (max-width: 599px) {
   .aboutus, .sidebar {
