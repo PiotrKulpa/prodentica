@@ -1,4 +1,3 @@
-//TODO ligtbox uniwersalny
 //TODO home slidery
 
 import Vue from 'vue'
