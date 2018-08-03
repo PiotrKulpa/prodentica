@@ -3,8 +3,10 @@
     <h1>Galeria</h1>
 
     <darkbox-app>
-
+        
     </darkbox-app>
+
+
 
 
   </div>

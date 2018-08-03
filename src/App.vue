@@ -422,6 +422,10 @@ footer {
   }
 
   .footer-menu {
+    width: 100%;
+  }
+
+  .footer-menu {
     font-size: 0.7em;
   }
 
@@ -434,7 +438,7 @@ footer {
   }
 
   .nav-home {
-    width: 250px;
+    width: 150px;
     height: 222px;
     padding: 15px;
     margin: 2px;
@@ -448,6 +452,10 @@ footer {
   .active {
     font-weight: bold;
     font-size: 1.2em;
+  }
+
+  .footer-menu {
+    width: 100%;
   }
 
 }

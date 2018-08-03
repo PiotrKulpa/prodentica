@@ -76,8 +76,8 @@ export default {
         // let filename2 = filename.replace(/.jpg/, '-big.jpg');
         //console.log(filename);
         sourceImage.src = '/static/images/' + filename;
-console.log(sourceImage.width);
-        sourceImage.style.width = '600px';
+        //console.log(sourceImage.width);
+        //sourceImage.style.width = '600px';
         this.$refs.ic.appendChild(sourceImage);
         });
       });
@@ -100,7 +100,7 @@ console.log(sourceImage.width);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 900px;
+  margin: 0;
   text-align: center;
 }
 
@@ -111,7 +111,8 @@ console.log(sourceImage.width);
 .img-container img {
   border: 15px solid black;
   cursor: pointer;
-  width: 33%;
+  width: 100%;
+  max-height:100%;
 }
 
 .darkbox-box {
