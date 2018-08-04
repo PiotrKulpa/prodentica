@@ -1,8 +1,14 @@
 <template>
   <div class="darkbox-container">
+
     <div class="darkbox-box" ref="db">
+
       <i class="fa fa-times-circle close" aria-hidden="true" @click="closeDarkbox"></i>
-      <div class="img-container" ref="ic" @click="closeDarkbox"></div>
+      <div class="loader-container" v-bind:style="styleObject">
+        <img class="loader" :src="'/static/loader/loader.svg'" alt="prodentica loader">
+      </div>
+      <div class="img-container" ref="ic" @click="closeDarkbox">
+      </div>
     </div>
   </div>
 </template>
@@ -12,15 +18,16 @@ export default {
   name: 'app',
   data () {
     return {
-
+      styleObject: {
+        display: 'block'
+      }
     }
   },
   methods: {
     openDarkbox() {
       let darkbox = document.querySelector('.darkbox-box');
-      let imgContainer = document.querySelector('.img-container');
       this.$refs.db.style.display = 'block';
-      imgContainer.classList.add('fade-in');
+
 
     },
     closeDarkbox() {
@@ -29,13 +36,33 @@ export default {
     },
     getImages() {
       let imgs = document.querySelectorAll('.darkbox');
+
       imgs.forEach((el) => {
         el.addEventListener('click', (e) => {
+
+        //preloading add loader
+        this.styleObject.display = 'block';
+        this.$refs.ic.style.display = "none";
+
         //open darbox
         this.openDarkbox();
         let sourceImage = document.createElement('img');
         let filename = e.target.src.replace(/^.*[\\\/]/, '');
         sourceImage.src = '/static/images/' + filename;
+
+        //preloading
+        let img = new Image();
+
+        img.onload = () => {
+          //preloading remove loader
+          this.styleObject.display = 'none';
+          let imgContainer = document.querySelector('.img-container');
+          imgContainer.classList.add('fade-in');
+          this.$refs.ic.style.display = "block";
+        };
+        img.src = sourceImage.src;
+
+        //append big image
         this.$refs.ic.appendChild(sourceImage);
         });
       });
@@ -43,6 +70,7 @@ export default {
   },
   mounted() {
     this.getImages();
+    //this.showLoader = 'none';
   }
 }
 </script>
@@ -51,6 +79,18 @@ export default {
 
 .darkbox {
   cursor: pointer;
+}
+
+.loader-container {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loader {
+  width: 200px !important;
 }
 
 .img-container {

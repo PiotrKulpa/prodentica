@@ -1,4 +1,6 @@
-//TODO home slidery
+//TODO css flex fix dodaj
+//TODO dodaj loader do miniatur
+//TODO dodaj info o ciasteczkach
 
 import Vue from 'vue'
 import App from './App.vue'
