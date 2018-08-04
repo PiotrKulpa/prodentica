@@ -1,6 +1,10 @@
 <template>
   <div class="darkbox-container">
 
+    <div class="loader-container-thumbs" ref="lt">
+      <img class="loader-thumbs"  :src="'/static/loader/loader.svg'" alt="prodentica loader">
+    </div>
+
     <div class="darkbox-box" ref="db">
 
       <i class="fa fa-times-circle close" aria-hidden="true" @click="closeDarkbox"></i>
@@ -33,6 +37,25 @@ export default {
     closeDarkbox() {
       this.$refs.ic.firstChild.remove();
       this.$refs.db.style.display = 'none';
+    },
+    getThumbs() {
+      let darkbox = document.querySelectorAll('.darkbox');
+      var _imgs = [];
+      let remaining = darkbox.length;
+
+
+      for (var a = 1; a < remaining; a++) {
+        _imgs[a] = new Image();
+        _imgs[a].onload = () => {
+               --remaining;
+
+               if (remaining <= 1) {
+                 this.$refs.lt.style.display = 'none';
+               }
+           };
+        _imgs[a].src = './static/images/thumbs/galeria0' + a + '.jpg';
+      }
+
     },
     getImages() {
       let imgs = document.querySelectorAll('.darkbox');
@@ -70,6 +93,7 @@ export default {
   },
   mounted() {
     this.getImages();
+    this.getThumbs();
     //this.showLoader = 'none';
   }
 }
@@ -81,7 +105,7 @@ export default {
   cursor: pointer;
 }
 
-.loader-container {
+.loader-container, .loader-container-thumbs {
   text-align: center;
   position: absolute;
   top: 50%;
@@ -89,7 +113,7 @@ export default {
   transform: translate(-50%, -50%);
 }
 
-.loader {
+.loader, .loader-thumbs {
   width: 200px !important;
 }
 

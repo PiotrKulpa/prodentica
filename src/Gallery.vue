@@ -11,6 +11,7 @@
       <img class="darkbox" :src="'/static/images/thumbs/galeria06.jpg'" alt="prodentica gabinet">
       <img class="darkbox" :src="'/static/images/thumbs/galeria07.jpg'" alt="prodentica gabinet">
       <img class="darkbox" :src="'/static/images/thumbs/galeria08.jpg'" alt="prodentica gabinet">
+      <img class="darkbox" :src="'/static/images/thumbs/galeria09.jpg'" alt="prodentica gabinet">
       <img class="darkbox" :src="'/static/images/thumbs/galeria010.jpg'" alt="prodentica gabinet">
       <img class="darkbox" :src="'/static/images/thumbs/galeria011.jpg'" alt="prodentica gabinet">
       <img class="darkbox" :src="'/static/images/thumbs/galeria012.jpg'" alt="prodentica gabinet">
@@ -24,11 +25,10 @@
       <img class="darkbox" :src="'/static/images/thumbs/galeria020.jpg'" alt="prodentica gabinet">
       <img class="darkbox" :src="'/static/images/thumbs/galeria021.jpg'" alt="prodentica gabinet">
       <img class="darkbox" :src="'/static/images/thumbs/galeria022.jpg'" alt="prodentica gabinet">
+      <img class="darkbox" :src="'/static/images/thumbs/galeria023.jpg'" alt="prodentica gabinet">
       <img class="darkbox" :src="'/static/images/thumbs/galeria024.jpg'" alt="prodentica gabinet">
       <img class="darkbox" :src="'/static/images/thumbs/galeria025.jpg'" alt="prodentica gabinet">
       <img class="darkbox" :src="'/static/images/thumbs/galeria026.jpg'" alt="prodentica gabinet">
-      <img class="darkbox" :src="'/static/images/thumbs/galeria027.jpg'" alt="prodentica gabinet">
-      <img class="darkbox" :src="'/static/images/thumbs/galeria028.jpg'" alt="prodentica gabinet">
     </div>
   </div>
 </template>
