@@ -2,6 +2,7 @@
   <div id="galeria" >
     <h1>Galeria</h1>
     <darkbox-app></darkbox-app>
+    
     <div class="darkbox-container">
       <img class="darkbox" :src="'/static/images/thumbs/galeria01.jpg'" alt="prodentica gabinet">
       <img class="darkbox" :src="'/static/images/thumbs/galeria02.jpg'" alt="prodentica gabinet">
@@ -30,6 +31,7 @@
       <img class="darkbox" :src="'/static/images/thumbs/galeria025.jpg'" alt="prodentica gabinet">
       <img class="darkbox" :src="'/static/images/thumbs/galeria026.jpg'" alt="prodentica gabinet">
     </div>
+
   </div>
 </template>
 

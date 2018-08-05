@@ -6,14 +6,14 @@
     </div>
 
     <div class="darkbox-box" ref="db">
-
       <i class="fa fa-times-circle close" aria-hidden="true" @click="closeDarkbox"></i>
-      <div class="loader-container" v-bind:style="styleObject">
+      <div class="loader-container" v-bind:style="styleLoader">
         <img class="loader" :src="'/static/loader/loader.svg'" alt="prodentica loader">
       </div>
       <div class="img-container" ref="ic" @click="closeDarkbox">
       </div>
     </div>
+
   </div>
 </template>
 
@@ -22,33 +22,35 @@ export default {
   name: 'app',
   data () {
     return {
-      styleObject: {
+      styleLoader: {
         display: 'block'
       }
     }
   },
   methods: {
+
+    //open image container
     openDarkbox() {
-      let darkbox = document.querySelector('.darkbox-box');
       this.$refs.db.style.display = 'block';
-
-
     },
+
+    //close image container
     closeDarkbox() {
       this.$refs.ic.firstChild.remove();
       this.$refs.db.style.display = 'none';
     },
+
+    //load thumbs with preloader
     getThumbs() {
       let darkbox = document.querySelectorAll('.darkbox');
-      var _imgs = [];
+      let _imgs = [];
       let remaining = darkbox.length;
 
 
-      for (var a = 1; a < remaining; a++) {
+      for (let a = 1; a < remaining; a++) {
         _imgs[a] = new Image();
         _imgs[a].onload = () => {
                --remaining;
-
                if (remaining <= 1) {
                  this.$refs.lt.style.display = 'none';
                }
@@ -64,7 +66,7 @@ export default {
         el.addEventListener('click', (e) => {
 
         //preloading add loader
-        this.styleObject.display = 'block';
+        this.styleLoader.display = 'block';
         this.$refs.ic.style.display = "none";
 
         //open darbox
@@ -75,10 +77,10 @@ export default {
 
         //preloading
         let img = new Image();
-
         img.onload = () => {
+
           //preloading remove loader
-          this.styleObject.display = 'none';
+          this.styleLoader.display = 'none';
           let imgContainer = document.querySelector('.img-container');
           imgContainer.classList.add('fade-in');
           this.$refs.ic.style.display = "block";
@@ -94,7 +96,6 @@ export default {
   mounted() {
     this.getImages();
     this.getThumbs();
-    //this.showLoader = 'none';
   }
 }
 </script>

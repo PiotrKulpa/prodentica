@@ -14,14 +14,14 @@ export default {
     }
   },
   mounted: function () {
-    const element = document.getElementById(this.mapName)
-    const options = {
+    let element = document.getElementById(this.mapName)
+    let options = {
       zoom: 14,
       center: new google.maps.LatLng(51.2656239,22.5195762)
     }
-    const map = new google.maps.Map(element, options);
+    let map = new google.maps.Map(element, options);
 
-    const marker = new google.maps.Marker({
+    let marker = new google.maps.Marker({
           position: {lat: 51.2656239, lng: 22.5195762},
           map: map,
           title: 'Prodentica'

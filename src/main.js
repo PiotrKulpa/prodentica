@@ -1,5 +1,3 @@
-//TODO css flex fix dodaj
-//TODO dodaj loader do miniatur
 //TODO dodaj info o ciasteczkach
 
 import Vue from 'vue'
@@ -19,7 +17,7 @@ import FA from 'font-awesome/css/font-awesome.css'
 
 Vue.use(VueRouter);
 
-const routes = [
+let routes = [
   {path: '/', component: Home},
   {path: '/onas', component: Aboutus},
   {path: '/uslugi', component: Services},
@@ -32,7 +30,7 @@ const routes = [
   {path: '/kontakt', component: Contact}
 ];
 
-const router = new VueRouter({
+let router = new VueRouter({
   mode: 'history',
   routes
 });
