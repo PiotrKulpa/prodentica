@@ -17,7 +17,7 @@ import FA from 'font-awesome/css/font-awesome.css'
 
 Vue.use(VueRouter);
 
-let routes = [
+var routes = [
   {path: '/', component: Home},
   {path: '/onas', component: Aboutus},
   {path: '/uslugi', component: Services},
@@ -30,7 +30,7 @@ let routes = [
   {path: '/kontakt', component: Contact}
 ];
 
-let router = new VueRouter({
+var router = new VueRouter({
   mode: 'history',
   routes
 });

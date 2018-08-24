@@ -28,7 +28,11 @@ module.exports = {
       {
         test: /\.js$/,
         loader: 'babel-loader',
-        exclude: /node_modules/
+        include: [path.join(__dirname, '../../Lib/src')],
+        exclude: /node_modules/,
+        options: {
+          presets: ['@babel/preset-env']
+        }
       },
       {
         test: /\.(ttf|eot|woff|woff2)$/,

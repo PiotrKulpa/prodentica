@@ -230,7 +230,7 @@
          > </span></li>
   </ol>
 
-    <h1>Artykuły</h1>
+    <h1>Artykuły o nas</h1>
     <div class="publications" v-for="el of publ">
       <a :href="`/static/publications/${el}.pdf`" download>
         <img class="cert-thumb" :src="`/static/publications/${el}.jpg`" alt="prodentica publikacje" width="190" height="143.5">
@@ -251,10 +251,9 @@ export default {
     }
   },
   created() {
-    for (var i = 1; i <= 5; i++) {
+    for (var i = 1; i <= 2; i++) {
       this.publ.push(i);
     }
-    console.log(this.certs);
   }
 }
 </script>
