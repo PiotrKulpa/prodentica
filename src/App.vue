@@ -28,7 +28,7 @@
 
     </header>
 
-    <div class="bars"  @click="toggleNav()">
+    <div class="bars"  @click="toggleNav">
       <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
 
@@ -36,12 +36,12 @@
 
 
 
-      <div class="nav-home-block" @click="toggleNav()">
-        <router-link to="/" exact active-class="active" @click="toggleNav()"><div class="nav-home radial-gradient">Home</div></router-link>
+      <div class="nav-home-block" @click="toggleNav">
+        <router-link to="/" exact active-class="active" @click="toggleNav"><div class="nav-home radial-gradient">Home</div></router-link>
       </div>
 
 
-      <div class="nav-links-block" @click="toggleNav()">
+      <div class="nav-links-block" @click="toggleNav">
         <router-link  to="/onas" active-class="active" ><div class="nav-link">O nas</div></router-link>
 
         <router-link to="/uslugi" active-class="active"><div class="nav-link radial-gradient">Usługi</div></router-link>

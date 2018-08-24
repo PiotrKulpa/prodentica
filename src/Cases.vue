@@ -1,7 +1,7 @@
 <template>
   <div id="cases">
     <h1>Przypadki</h1>
-    <button type="button" name="button" @click="showCase1()" v-bind:class="{btnActive: isActive}">Przypadek 1</button><button type="button" name="button" @click="showCase2()" v-bind:class="{btnActive: isActive2}">Przypadek 2</button><button type="button" name="button" @click="showCase3()" v-bind:class="{btnActive: isActive3}">Przypadek 3</button>
+    <button type="button" name="button" @click="showCase1" v-bind:class="{btnActive: isActive}">Przypadek 1</button><button type="button" name="button" @click="showCase2" v-bind:class="{btnActive: isActive2}">Przypadek 2</button><button type="button" name="button" @click="showCase3" v-bind:class="{btnActive: isActive3}">Przypadek 3</button>
     <hr>
 
     <div class="case" v-if="c1">
