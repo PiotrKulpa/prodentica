@@ -1,5 +1,6 @@
 var path = require('path')
 var webpack = require('webpack')
+var UglifyJSPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = {
   entry: './src/main.js',
@@ -20,16 +21,18 @@ module.exports = {
         test: /\.vue$/,
         loader: 'vue-loader',
         options: {
-          loaders: {
-          }
+          presets: ['@babel/preset-env']
           // other vue-loader options go here
         }
       },
       {
         test: /\.js$/,
         loader: 'babel-loader',
-        include: [path.join(__dirname, '../../Lib/src')],
-        exclude: /node_modules/,
+        include: [
+          path.join(__dirname, '../../Lib/src'),
+          path.join(__dirname, '../../node_modules/swiper/dist/js'),
+          path.join(__dirname, '../../src/main.js')
+        ],
         options: {
           presets: ['@babel/preset-env']
         }
@@ -85,6 +88,7 @@ if (process.env.NODE_ENV === 'production') {
       }
     }),
     new webpack.optimize.UglifyJsPlugin({
+
       sourceMap: true,
       compress: {
         warnings: false

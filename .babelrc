@@ -2,10 +2,11 @@
   "presets": [
     ["env",
       { "modules": false,
+        "loose": false,
         "targets": {
-          "browsers": ["last 2 versions", "ie >= 7"],
-          "uglify": true
-        }
+          "ie": 10
+        },
+        "include": ["transform-es2015-arrow-functions", "transform-es2015-block-scoping", "es6.map"]
         }],
     "stage-3"
   ]

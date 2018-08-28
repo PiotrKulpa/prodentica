@@ -1,5 +1,3 @@
-//TODO dodaj info o ciasteczkach
-
 import Vue from 'vue'
 import App from './App.vue'
 import Home from './Home.vue'
@@ -33,10 +31,18 @@ var routes = [
 var router = new VueRouter({
   mode: 'history',
   routes
-});
+})
+
+// new Vue({
+//   el: '#app',
+//   router,
+//   render: h => h(App)
+// })
 
 new Vue({
   el: '#app',
-  router,
-  render: h => h(App)
-})
+  router: router,
+  render: function render(h) {
+    return h(App);
+  }
+});

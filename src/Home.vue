@@ -80,7 +80,7 @@
 </template>
 
 <script>
-import Swiper from 'swiper'
+import Swiper from 'swiper/dist/js/swiper.min.js'
 import SwipperCSS from 'swiper/dist/css/swiper.min.css'
 export default {
   name: 'app',
